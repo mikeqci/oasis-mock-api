@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PUT api/v1/bonusing/bonusinfo/{bonusId}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>PUT api/v1/bonusing/bonusinfo/{bonusId}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>bonus</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>bonusId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;BonusType&quot;: &quot;sample string 2&quot;,
+  &quot;SourceSystemId&quot;: 4,
+  &quot;SourceSystemName&quot;: &quot;sample string 5&quot;,
+  &quot;SourceSystemBonusId&quot;: &quot;sample string 6&quot;,
+  &quot;SourceSystemBonusIdName&quot;: &quot;sample string 7&quot;,
+  &quot;BonusName&quot;: &quot;sample string 8&quot;,
+  &quot;StartDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+  &quot;EndDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+  &quot;BonusClientData&quot;: [
+    {
+      &quot;BonusDataId&quot;: 2,
+      &quot;ClientType&quot;: &quot;sample string 3&quot;,
+      &quot;Title&quot;: &quot;sample string 4&quot;,
+      &quot;BonusType&quot;: &quot;sample string 5&quot;,
+      &quot;Description&quot;: &quot;sample string 6&quot;,
+      &quot;ImageUrl&quot;: &quot;sample string 7&quot;,
+      &quot;IsTitleOverride&quot;: true,
+      &quot;IsDescriptionOverride&quot;: true,
+      &quot;IsImageOverride&quot;: true,
+      &quot;Attributes&quot;: [
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;Display&quot;: true,
+      &quot;CreatedDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+      &quot;UpdatedDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+      &quot;UpdatedBy&quot;: &quot;sample string 9&quot;,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 11&quot;
+    },
+    {
+      &quot;BonusDataId&quot;: 2,
+      &quot;ClientType&quot;: &quot;sample string 3&quot;,
+      &quot;Title&quot;: &quot;sample string 4&quot;,
+      &quot;BonusType&quot;: &quot;sample string 5&quot;,
+      &quot;Description&quot;: &quot;sample string 6&quot;,
+      &quot;ImageUrl&quot;: &quot;sample string 7&quot;,
+      &quot;IsTitleOverride&quot;: true,
+      &quot;IsDescriptionOverride&quot;: true,
+      &quot;IsImageOverride&quot;: true,
+      &quot;Attributes&quot;: [
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;Display&quot;: true,
+      &quot;CreatedDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+      &quot;UpdatedDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+      &quot;UpdatedBy&quot;: &quot;sample string 9&quot;,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 11&quot;
+    },
+    {
+      &quot;BonusDataId&quot;: 2,
+      &quot;ClientType&quot;: &quot;sample string 3&quot;,
+      &quot;Title&quot;: &quot;sample string 4&quot;,
+      &quot;BonusType&quot;: &quot;sample string 5&quot;,
+      &quot;Description&quot;: &quot;sample string 6&quot;,
+      &quot;ImageUrl&quot;: &quot;sample string 7&quot;,
+      &quot;IsTitleOverride&quot;: true,
+      &quot;IsDescriptionOverride&quot;: true,
+      &quot;IsImageOverride&quot;: true,
+      &quot;Attributes&quot;: [
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;Display&quot;: true,
+      &quot;CreatedDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+      &quot;UpdatedDate&quot;: &quot;2022-06-09T11:51:03.6775195-07:00&quot;,
+      &quot;UpdatedBy&quot;: &quot;sample string 9&quot;,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 11&quot;
+    }
+  ],
+  &quot;LeaderBoard&quot;: [
+    {
+      &quot;LeaderBoardItemId&quot;: 1,
+      &quot;Player&quot;: {
+        &quot;PlayerId&quot;: 1,
+        &quot;AvatarId&quot;: &quot;sample string 2&quot;,
+        &quot;FirstName&quot;: &quot;sample string 3&quot;,
+        &quot;MiddleName&quot;: &quot;sample string 4&quot;,
+        &quot;LastName&quot;: &quot;sample string 5&quot;,
+        &quot;Gender&quot;: &quot;sample string 6&quot;,
+        &quot;NickName&quot;: &quot;sample string 7&quot;,
+        &quot;PrintedName&quot;: &quot;sample string 8&quot;,
+        &quot;Attributes&quot;: [
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          },
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          },
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          }
+        ],
+        &quot;AuditList&quot;: [
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          },
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          },
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          }
+        ],
+        &quot;RowVersion&quot;: &quot;sample string 9&quot;
+      },
+      &quot;CurrentPosition&quot;: 2,
+      &quot;PreviousPosition&quot;: 3,
+      &quot;Value&quot;: 4.0,
+      &quot;Attributes&quot;: [
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 5&quot;
+    },
+    {
+      &quot;LeaderBoardItemId&quot;: 1,
+      &quot;Player&quot;: {
+        &quot;PlayerId&quot;: 1,
+        &quot;AvatarId&quot;: &quot;sample string 2&quot;,
+        &quot;FirstName&quot;: &quot;sample string 3&quot;,
+        &quot;MiddleName&quot;: &quot;sample string 4&quot;,
+        &quot;LastName&quot;: &quot;sample string 5&quot;,
+        &quot;Gender&quot;: &quot;sample string 6&quot;,
+        &quot;NickName&quot;: &quot;sample string 7&quot;,
+        &quot;PrintedName&quot;: &quot;sample string 8&quot;,
+        &quot;Attributes&quot;: [
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          },
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          },
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          }
+        ],
+        &quot;AuditList&quot;: [
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          },
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          },
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          }
+        ],
+        &quot;RowVersion&quot;: &quot;sample string 9&quot;
+      },
+      &quot;CurrentPosition&quot;: 2,
+      &quot;PreviousPosition&quot;: 3,
+      &quot;Value&quot;: 4.0,
+      &quot;Attributes&quot;: [
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 5&quot;
+    },
+    {
+      &quot;LeaderBoardItemId&quot;: 1,
+      &quot;Player&quot;: {
+        &quot;PlayerId&quot;: 1,
+        &quot;AvatarId&quot;: &quot;sample string 2&quot;,
+        &quot;FirstName&quot;: &quot;sample string 3&quot;,
+        &quot;MiddleName&quot;: &quot;sample string 4&quot;,
+        &quot;LastName&quot;: &quot;sample string 5&quot;,
+        &quot;Gender&quot;: &quot;sample string 6&quot;,
+        &quot;NickName&quot;: &quot;sample string 7&quot;,
+        &quot;PrintedName&quot;: &quot;sample string 8&quot;,
+        &quot;Attributes&quot;: [
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          },
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          },
+          {
+            &quot;Id&quot;: 1,
+            &quot;Key&quot;: &quot;sample string 2&quot;,
+            &quot;Value&quot;: &quot;sample string 3&quot;,
+            &quot;AuditList&quot;: [
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              },
+              {
+                &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+                &quot;AuditString&quot;: &quot;sample string 2&quot;
+              }
+            ],
+            &quot;RowVersion&quot;: &quot;sample string 4&quot;
+          }
+        ],
+        &quot;AuditList&quot;: [
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          },
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          },
+          {
+            &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+            &quot;AuditString&quot;: &quot;sample string 2&quot;
+          }
+        ],
+        &quot;RowVersion&quot;: &quot;sample string 9&quot;
+      },
+      &quot;CurrentPosition&quot;: 2,
+      &quot;PreviousPosition&quot;: 3,
+      &quot;Value&quot;: 4.0,
+      &quot;Attributes&quot;: [
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;Id&quot;: 1,
+          &quot;Key&quot;: &quot;sample string 2&quot;,
+          &quot;Value&quot;: &quot;sample string 3&quot;,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 5&quot;
+    }
+  ],
+  &quot;Active&quot;: true,
+  &quot;IsHide&quot;: true,
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;RowVersion&quot;: &quot;sample string 9&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;Bonus xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://Aristocrat-inc.com/nConnect/Resources/Bonusing/Contracts/Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 9&lt;/RowVersion&gt;
+  &lt;Active&gt;true&lt;/Active&gt;
+  &lt;BonusClientData xmlns:d2p1=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.Common.Entities&quot;&gt;
+    &lt;d2p1:BonusClientData&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 11&lt;/RowVersion&gt;
+      &lt;d2p1:Attributes&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+      &lt;/d2p1:Attributes&gt;
+      &lt;d2p1:BonusDataId&gt;2&lt;/d2p1:BonusDataId&gt;
+      &lt;d2p1:BonusType&gt;sample string 5&lt;/d2p1:BonusType&gt;
+      &lt;d2p1:ClientType&gt;sample string 3&lt;/d2p1:ClientType&gt;
+      &lt;d2p1:CreatedDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/d2p1:CreatedDate&gt;
+      &lt;d2p1:Description&gt;sample string 6&lt;/d2p1:Description&gt;
+      &lt;d2p1:Display&gt;true&lt;/d2p1:Display&gt;
+      &lt;d2p1:ImageUrl&gt;sample string 7&lt;/d2p1:ImageUrl&gt;
+      &lt;d2p1:IsDescriptionOverride&gt;true&lt;/d2p1:IsDescriptionOverride&gt;
+      &lt;d2p1:IsImageOverride&gt;true&lt;/d2p1:IsImageOverride&gt;
+      &lt;d2p1:IsTitleOverride&gt;true&lt;/d2p1:IsTitleOverride&gt;
+      &lt;d2p1:Title&gt;sample string 4&lt;/d2p1:Title&gt;
+      &lt;d2p1:UpdatedBy&gt;sample string 9&lt;/d2p1:UpdatedBy&gt;
+      &lt;d2p1:UpdatedDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/d2p1:UpdatedDate&gt;
+    &lt;/d2p1:BonusClientData&gt;
+    &lt;d2p1:BonusClientData&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 11&lt;/RowVersion&gt;
+      &lt;d2p1:Attributes&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+      &lt;/d2p1:Attributes&gt;
+      &lt;d2p1:BonusDataId&gt;2&lt;/d2p1:BonusDataId&gt;
+      &lt;d2p1:BonusType&gt;sample string 5&lt;/d2p1:BonusType&gt;
+      &lt;d2p1:ClientType&gt;sample string 3&lt;/d2p1:ClientType&gt;
+      &lt;d2p1:CreatedDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/d2p1:CreatedDate&gt;
+      &lt;d2p1:Description&gt;sample string 6&lt;/d2p1:Description&gt;
+      &lt;d2p1:Display&gt;true&lt;/d2p1:Display&gt;
+      &lt;d2p1:ImageUrl&gt;sample string 7&lt;/d2p1:ImageUrl&gt;
+      &lt;d2p1:IsDescriptionOverride&gt;true&lt;/d2p1:IsDescriptionOverride&gt;
+      &lt;d2p1:IsImageOverride&gt;true&lt;/d2p1:IsImageOverride&gt;
+      &lt;d2p1:IsTitleOverride&gt;true&lt;/d2p1:IsTitleOverride&gt;
+      &lt;d2p1:Title&gt;sample string 4&lt;/d2p1:Title&gt;
+      &lt;d2p1:UpdatedBy&gt;sample string 9&lt;/d2p1:UpdatedBy&gt;
+      &lt;d2p1:UpdatedDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/d2p1:UpdatedDate&gt;
+    &lt;/d2p1:BonusClientData&gt;
+    &lt;d2p1:BonusClientData&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 11&lt;/RowVersion&gt;
+      &lt;d2p1:Attributes&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+      &lt;/d2p1:Attributes&gt;
+      &lt;d2p1:BonusDataId&gt;2&lt;/d2p1:BonusDataId&gt;
+      &lt;d2p1:BonusType&gt;sample string 5&lt;/d2p1:BonusType&gt;
+      &lt;d2p1:ClientType&gt;sample string 3&lt;/d2p1:ClientType&gt;
+      &lt;d2p1:CreatedDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/d2p1:CreatedDate&gt;
+      &lt;d2p1:Description&gt;sample string 6&lt;/d2p1:Description&gt;
+      &lt;d2p1:Display&gt;true&lt;/d2p1:Display&gt;
+      &lt;d2p1:ImageUrl&gt;sample string 7&lt;/d2p1:ImageUrl&gt;
+      &lt;d2p1:IsDescriptionOverride&gt;true&lt;/d2p1:IsDescriptionOverride&gt;
+      &lt;d2p1:IsImageOverride&gt;true&lt;/d2p1:IsImageOverride&gt;
+      &lt;d2p1:IsTitleOverride&gt;true&lt;/d2p1:IsTitleOverride&gt;
+      &lt;d2p1:Title&gt;sample string 4&lt;/d2p1:Title&gt;
+      &lt;d2p1:UpdatedBy&gt;sample string 9&lt;/d2p1:UpdatedBy&gt;
+      &lt;d2p1:UpdatedDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/d2p1:UpdatedDate&gt;
+    &lt;/d2p1:BonusClientData&gt;
+  &lt;/BonusClientData&gt;
+  &lt;BonusName&gt;sample string 8&lt;/BonusName&gt;
+  &lt;BonusType&gt;sample string 2&lt;/BonusType&gt;
+  &lt;EndDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/EndDate&gt;
+  &lt;IsHide&gt;true&lt;/IsHide&gt;
+  &lt;LeaderBoard&gt;
+    &lt;LeaderBoardItem&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 5&lt;/RowVersion&gt;
+      &lt;Attributes&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+      &lt;/Attributes&gt;
+      &lt;CurrentPosition&gt;2&lt;/CurrentPosition&gt;
+      &lt;LeaderBoardItemId&gt;1&lt;/LeaderBoardItemId&gt;
+      &lt;Player&gt;
+        &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+        &lt;/AuditList&gt;
+        &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 9&lt;/RowVersion&gt;
+        &lt;Attributes&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+        &lt;/Attributes&gt;
+        &lt;AvatarId&gt;sample string 2&lt;/AvatarId&gt;
+        &lt;FirstName&gt;sample string 3&lt;/FirstName&gt;
+        &lt;Gender&gt;sample string 6&lt;/Gender&gt;
+        &lt;LastName&gt;sample string 5&lt;/LastName&gt;
+        &lt;MiddleName&gt;sample string 4&lt;/MiddleName&gt;
+        &lt;NickName&gt;sample string 7&lt;/NickName&gt;
+        &lt;PlayerId&gt;1&lt;/PlayerId&gt;
+        &lt;PrintedName&gt;sample string 8&lt;/PrintedName&gt;
+      &lt;/Player&gt;
+      &lt;PreviousPosition&gt;3&lt;/PreviousPosition&gt;
+      &lt;Value&gt;4&lt;/Value&gt;
+    &lt;/LeaderBoardItem&gt;
+    &lt;LeaderBoardItem&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 5&lt;/RowVersion&gt;
+      &lt;Attributes&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+      &lt;/Attributes&gt;
+      &lt;CurrentPosition&gt;2&lt;/CurrentPosition&gt;
+      &lt;LeaderBoardItemId&gt;1&lt;/LeaderBoardItemId&gt;
+      &lt;Player&gt;
+        &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+        &lt;/AuditList&gt;
+        &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 9&lt;/RowVersion&gt;
+        &lt;Attributes&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+        &lt;/Attributes&gt;
+        &lt;AvatarId&gt;sample string 2&lt;/AvatarId&gt;
+        &lt;FirstName&gt;sample string 3&lt;/FirstName&gt;
+        &lt;Gender&gt;sample string 6&lt;/Gender&gt;
+        &lt;LastName&gt;sample string 5&lt;/LastName&gt;
+        &lt;MiddleName&gt;sample string 4&lt;/MiddleName&gt;
+        &lt;NickName&gt;sample string 7&lt;/NickName&gt;
+        &lt;PlayerId&gt;1&lt;/PlayerId&gt;
+        &lt;PrintedName&gt;sample string 8&lt;/PrintedName&gt;
+      &lt;/Player&gt;
+      &lt;PreviousPosition&gt;3&lt;/PreviousPosition&gt;
+      &lt;Value&gt;4&lt;/Value&gt;
+    &lt;/LeaderBoardItem&gt;
+    &lt;LeaderBoardItem&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 5&lt;/RowVersion&gt;
+      &lt;Attributes&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+        &lt;Attribute&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+          &lt;Id&gt;1&lt;/Id&gt;
+          &lt;Key&gt;sample string 2&lt;/Key&gt;
+          &lt;Value&gt;sample string 3&lt;/Value&gt;
+        &lt;/Attribute&gt;
+      &lt;/Attributes&gt;
+      &lt;CurrentPosition&gt;2&lt;/CurrentPosition&gt;
+      &lt;LeaderBoardItemId&gt;1&lt;/LeaderBoardItemId&gt;
+      &lt;Player&gt;
+        &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+          &lt;Audit&gt;
+            &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+            &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+          &lt;/Audit&gt;
+        &lt;/AuditList&gt;
+        &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 9&lt;/RowVersion&gt;
+        &lt;Attributes&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+          &lt;Attribute&gt;
+            &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+              &lt;Audit&gt;
+                &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+                &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+              &lt;/Audit&gt;
+            &lt;/AuditList&gt;
+            &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+            &lt;Id&gt;1&lt;/Id&gt;
+            &lt;Key&gt;sample string 2&lt;/Key&gt;
+            &lt;Value&gt;sample string 3&lt;/Value&gt;
+          &lt;/Attribute&gt;
+        &lt;/Attributes&gt;
+        &lt;AvatarId&gt;sample string 2&lt;/AvatarId&gt;
+        &lt;FirstName&gt;sample string 3&lt;/FirstName&gt;
+        &lt;Gender&gt;sample string 6&lt;/Gender&gt;
+        &lt;LastName&gt;sample string 5&lt;/LastName&gt;
+        &lt;MiddleName&gt;sample string 4&lt;/MiddleName&gt;
+        &lt;NickName&gt;sample string 7&lt;/NickName&gt;
+        &lt;PlayerId&gt;1&lt;/PlayerId&gt;
+        &lt;PrintedName&gt;sample string 8&lt;/PrintedName&gt;
+      &lt;/Player&gt;
+      &lt;PreviousPosition&gt;3&lt;/PreviousPosition&gt;
+      &lt;Value&gt;4&lt;/Value&gt;
+    &lt;/LeaderBoardItem&gt;
+  &lt;/LeaderBoard&gt;
+  &lt;SourceSystemBonusId&gt;sample string 6&lt;/SourceSystemBonusId&gt;
+  &lt;SourceSystemBonusIdName&gt;sample string 7&lt;/SourceSystemBonusIdName&gt;
+  &lt;SourceSystemId&gt;4&lt;/SourceSystemId&gt;
+  &lt;SourceSystemName&gt;sample string 5&lt;/SourceSystemName&gt;
+  &lt;StartDate&gt;2022-06-09T11:51:03.6775195-07:00&lt;/StartDate&gt;
+&lt;/Bonus&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;Bonus&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/marketing/Coupons/{Id}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/marketing/Coupons/{Id}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>options</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>None.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>Id</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;CouponID&quot;: &quot;sample string 1&quot;,
+  &quot;CouponType&quot;: &quot;sample string 2&quot;,
+  &quot;Name&quot;: &quot;sample string 3&quot;,
+  &quot;Description&quot;: &quot;sample string 4&quot;,
+  &quot;Cost&quot;: 5.0,
+  &quot;FaceValue&quot;: 6.0,
+  &quot;StartDate&quot;: &quot;sample string 7&quot;,
+  &quot;EndDate&quot;: &quot;sample string 8&quot;,
+  &quot;PlayerRestrict&quot;: true,
+  &quot;Cashable&quot;: true,
+  &quot;ComplimentaryItemID&quot;: &quot;sample string 11&quot;,
+  &quot;OfferID&quot;: &quot;sample string 12&quot;,
+  &quot;InInventory&quot;: 13,
+  &quot;ValidationNumbers&quot;: [
+    &quot;sample string 1&quot;,
+    &quot;sample string 2&quot;,
+    &quot;sample string 3&quot;
+  ]
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;Coupons xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.Marketing.Entities&quot;&gt;
+  &lt;Cashable&gt;true&lt;/Cashable&gt;
+  &lt;ComplimentaryItemID&gt;sample string 11&lt;/ComplimentaryItemID&gt;
+  &lt;Cost&gt;5&lt;/Cost&gt;
+  &lt;CouponID&gt;sample string 1&lt;/CouponID&gt;
+  &lt;CouponType&gt;sample string 2&lt;/CouponType&gt;
+  &lt;Description&gt;sample string 4&lt;/Description&gt;
+  &lt;EndDate&gt;sample string 8&lt;/EndDate&gt;
+  &lt;FaceValue&gt;6&lt;/FaceValue&gt;
+  &lt;InInventory&gt;13&lt;/InInventory&gt;
+  &lt;Name&gt;sample string 3&lt;/Name&gt;
+  &lt;OfferID&gt;sample string 12&lt;/OfferID&gt;
+  &lt;PlayerRestrict&gt;true&lt;/PlayerRestrict&gt;
+  &lt;StartDate&gt;sample string 7&lt;/StartDate&gt;
+  &lt;ValidationNumbers xmlns:d2p1=&quot;http://schemas.microsoft.com/2003/10/Serialization/Arrays&quot;&gt;
+    &lt;d2p1:string&gt;sample string 1&lt;/d2p1:string&gt;
+    &lt;d2p1:string&gt;sample string 2&lt;/d2p1:string&gt;
+    &lt;d2p1:string&gt;sample string 3&lt;/d2p1:string&gt;
+  &lt;/ValidationNumbers&gt;
+&lt;/Coupons&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

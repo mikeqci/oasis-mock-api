@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/PlayerInfo/{playerId}/CardByCardNumber?cardNumber={cardNumber}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/PlayerInfo/{playerId}/CardByCardNumber?cardNumber={cardNumber}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>cardNumber</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;IdReaderType&quot;: &quot;sample string 1&quot;,
+  &quot;IdNumber&quot;: &quot;sample string 2&quot;,
+  &quot;IdEncoding&quot;: &quot;sample string 3&quot;,
+  &quot;IdCreatedDateTime&quot;: &quot;2022-06-09T11:51:04.7244361-07:00&quot;,
+  &quot;IdCreatedStation&quot;: &quot;sample string 5&quot;,
+  &quot;IdCreatedEmployee&quot;: &quot;sample string 6&quot;,
+  &quot;PinProtected&quot;: true,
+  &quot;IdExpiry&quot;: &quot;2022-06-09T11:51:04.7244361-07:00&quot;,
+  &quot;IdLost&quot;: true,
+  &quot;IsDeleted&quot;: true,
+  &quot;IdActive&quot;: true,
+  &quot;KeyPairID&quot;: 12,
+  &quot;SecurityType&quot;: &quot;sample string 13&quot;,
+  &quot;KeyValue&quot;: &quot;sample string 14&quot;,
+  &quot;KeyPairExpiry&quot;: &quot;2022-06-09T11:51:04.7244361-07:00&quot;,
+  &quot;CardsInPlay&quot;: 16,
+  &quot;NumberOfPrints&quot;: 17,
+  &quot;Track1&quot;: &quot;sample string 18&quot;,
+  &quot;Track2&quot;: &quot;sample string 19&quot;,
+  &quot;Track3&quot;: &quot;sample string 20&quot;,
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;RowVersion&quot;: &quot;sample string 21&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PlayerCard xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 21&lt;/RowVersion&gt;
+  &lt;CardsInPlay&gt;16&lt;/CardsInPlay&gt;
+  &lt;IdActive&gt;true&lt;/IdActive&gt;
+  &lt;IdCreatedDateTime&gt;2022-06-09T11:51:04.7244361-07:00&lt;/IdCreatedDateTime&gt;
+  &lt;IdCreatedEmployee&gt;sample string 6&lt;/IdCreatedEmployee&gt;
+  &lt;IdCreatedStation&gt;sample string 5&lt;/IdCreatedStation&gt;
+  &lt;IdEncoding&gt;sample string 3&lt;/IdEncoding&gt;
+  &lt;IdExpiry&gt;2022-06-09T11:51:04.7244361-07:00&lt;/IdExpiry&gt;
+  &lt;IdLost&gt;true&lt;/IdLost&gt;
+  &lt;IdNumber&gt;sample string 2&lt;/IdNumber&gt;
+  &lt;IdReaderType&gt;sample string 1&lt;/IdReaderType&gt;
+  &lt;IsDeleted&gt;true&lt;/IsDeleted&gt;
+  &lt;KeyPairExpiry&gt;2022-06-09T11:51:04.7244361-07:00&lt;/KeyPairExpiry&gt;
+  &lt;KeyPairID&gt;12&lt;/KeyPairID&gt;
+  &lt;KeyValue&gt;sample string 14&lt;/KeyValue&gt;
+  &lt;NumberOfPrints&gt;17&lt;/NumberOfPrints&gt;
+  &lt;PinProtected&gt;true&lt;/PinProtected&gt;
+  &lt;SecurityType&gt;sample string 13&lt;/SecurityType&gt;
+  &lt;Track1&gt;sample string 18&lt;/Track1&gt;
+  &lt;Track2&gt;sample string 19&lt;/Track2&gt;
+  &lt;Track3&gt;sample string 20&lt;/Track3&gt;
+&lt;/PlayerCard&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PUT api/v1/PlayerInfo/{playerId}/PlayerGroupByGroupId?groupId={groupId}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>PUT api/v1/PlayerInfo/{playerId}/PlayerGroupByGroupId?groupId={groupId}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>playerGroup</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>groupId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;GroupId&quot;: &quot;sample string 1&quot;,
+  &quot;GroupName&quot;: &quot;sample string 2&quot;,
+  &quot;GroupNotify&quot;: true,
+  &quot;PlayerGroupActive&quot;: true,
+  &quot;StartDateTime&quot;: &quot;2022-06-09T11:51:04.865505-07:00&quot;,
+  &quot;EndDateTime&quot;: &quot;2022-06-09T11:51:04.865505-07:00&quot;,
+  &quot;HasPlayed&quot;: true,
+  &quot;HasRefused&quot;: true,
+  &quot;HasSubscribed&quot;: true,
+  &quot;Tags&quot;: [
+    {
+      &quot;TagId&quot;: &quot;sample string 1&quot;,
+      &quot;Name&quot;: &quot;sample string 2&quot;,
+      &quot;Description&quot;: &quot;sample string 3&quot;,
+      &quot;InternalUseOnly&quot;: true
+    },
+    {
+      &quot;TagId&quot;: &quot;sample string 1&quot;,
+      &quot;Name&quot;: &quot;sample string 2&quot;,
+      &quot;Description&quot;: &quot;sample string 3&quot;,
+      &quot;InternalUseOnly&quot;: true
+    },
+    {
+      &quot;TagId&quot;: &quot;sample string 1&quot;,
+      &quot;Name&quot;: &quot;sample string 2&quot;,
+      &quot;Description&quot;: &quot;sample string 3&quot;,
+      &quot;InternalUseOnly&quot;: true
+    }
+  ],
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;RowVersion&quot;: &quot;sample string 4&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PlayerGroup xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 4&lt;/RowVersion&gt;
+  &lt;EndDateTime&gt;2022-06-09T11:51:04.865505-07:00&lt;/EndDateTime&gt;
+  &lt;GroupId&gt;sample string 1&lt;/GroupId&gt;
+  &lt;GroupName&gt;sample string 2&lt;/GroupName&gt;
+  &lt;GroupNotify&gt;true&lt;/GroupNotify&gt;
+  &lt;HasPlayed&gt;true&lt;/HasPlayed&gt;
+  &lt;HasRefused&gt;true&lt;/HasRefused&gt;
+  &lt;HasSubscribed&gt;true&lt;/HasSubscribed&gt;
+  &lt;PlayerGroupActive&gt;true&lt;/PlayerGroupActive&gt;
+  &lt;StartDateTime&gt;2022-06-09T11:51:04.865505-07:00&lt;/StartDateTime&gt;
+  &lt;Tags&gt;
+    &lt;GroupTags&gt;
+      &lt;TagId&gt;sample string 1&lt;/TagId&gt;
+      &lt;Name&gt;sample string 2&lt;/Name&gt;
+      &lt;Description&gt;sample string 3&lt;/Description&gt;
+      &lt;InternalUseOnly&gt;true&lt;/InternalUseOnly&gt;
+    &lt;/GroupTags&gt;
+    &lt;GroupTags&gt;
+      &lt;TagId&gt;sample string 1&lt;/TagId&gt;
+      &lt;Name&gt;sample string 2&lt;/Name&gt;
+      &lt;Description&gt;sample string 3&lt;/Description&gt;
+      &lt;InternalUseOnly&gt;true&lt;/InternalUseOnly&gt;
+    &lt;/GroupTags&gt;
+    &lt;GroupTags&gt;
+      &lt;TagId&gt;sample string 1&lt;/TagId&gt;
+      &lt;Name&gt;sample string 2&lt;/Name&gt;
+      &lt;Description&gt;sample string 3&lt;/Description&gt;
+      &lt;InternalUseOnly&gt;true&lt;/InternalUseOnly&gt;
+    &lt;/GroupTags&gt;
+  &lt;/Tags&gt;
+&lt;/PlayerGroup&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;PlayerGroup&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PUT api/v1/PlayerInfo/{playerId}/PersonalID/{ID}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>PUT api/v1/PlayerInfo/{playerId}/PersonalID/{ID}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>playerIdent</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>ID</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;IdentId&quot;: &quot;sample string 1&quot;,
+  &quot;IdentType&quot;: &quot;sample string 2&quot;,
+  &quot;CountryCode&quot;: &quot;sample string 3&quot;,
+  &quot;StateProvCode&quot;: &quot;sample string 4&quot;,
+  &quot;IdentNumber&quot;: &quot;sample string 5&quot;,
+  &quot;IdentExpiry&quot;: &quot;2022-06-09T11:51:04.3963011-07:00&quot;,
+  &quot;IdentVerified&quot;: true,
+  &quot;VerifiedDateTime&quot;: &quot;2022-06-09T11:51:04.3963011-07:00&quot;,
+  &quot;VerifiedStation&quot;: &quot;sample string 7&quot;,
+  &quot;VerifiedEmployee&quot;: &quot;sample string 8&quot;,
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;RowVersion&quot;: &quot;sample string 10&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PlayerIdent xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+  &lt;CountryCode&gt;sample string 3&lt;/CountryCode&gt;
+  &lt;IdentActive&gt;true&lt;/IdentActive&gt;
+  &lt;IdentExpiry&gt;2022-06-09T11:51:04.3963011-07:00&lt;/IdentExpiry&gt;
+  &lt;IdentId&gt;sample string 1&lt;/IdentId&gt;
+  &lt;IdentNumber&gt;sample string 5&lt;/IdentNumber&gt;
+  &lt;IdentType&gt;sample string 2&lt;/IdentType&gt;
+  &lt;IdentVerified&gt;true&lt;/IdentVerified&gt;
+  &lt;StateProvCode&gt;sample string 4&lt;/StateProvCode&gt;
+  &lt;VerifiedDateTime&gt;2022-06-09T11:51:04.3963011-07:00&lt;/VerifiedDateTime&gt;
+  &lt;VerifiedEmployee&gt;sample string 8&lt;/VerifiedEmployee&gt;
+  &lt;VerifiedStation&gt;sample string 7&lt;/VerifiedStation&gt;
+&lt;/PlayerIdent&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;PlayerIdent&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

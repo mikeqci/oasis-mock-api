@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v1/propertyinfo/ExpirationRules</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v1/propertyinfo/ExpirationRules</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>expirationRule</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;ExpirationRuleId&quot;: 1,
+  &quot;AccountType&quot;: 1,
+  &quot;Name&quot;: &quot;sample string 1&quot;,
+  &quot;AccountTransactionExpirationRule&quot;: {
+    &quot;TransactionRules&quot;: {
+      &quot;UsageRestriction&quot;: 1
+    },
+    &quot;AccountRules&quot;: {
+      &quot;Rules&quot;: [
+        {
+          &quot;RuleId&quot;: 1,
+          &quot;ExpirationType&quot;: &quot;TransactionExpiration&quot;,
+          &quot;IsLocal&quot;: true,
+          &quot;MaxRankId&quot;: 1,
+          &quot;MinRankId&quot;: 1,
+          &quot;DaysToExpire&quot;: 1,
+          &quot;MonthsToExpire&quot;: 1
+        },
+        {
+          &quot;RuleId&quot;: 1,
+          &quot;ExpirationType&quot;: &quot;TransactionExpiration&quot;,
+          &quot;IsLocal&quot;: true,
+          &quot;MaxRankId&quot;: 1,
+          &quot;MinRankId&quot;: 1,
+          &quot;DaysToExpire&quot;: 1,
+          &quot;MonthsToExpire&quot;: 1
+        },
+        {
+          &quot;RuleId&quot;: 1,
+          &quot;ExpirationType&quot;: &quot;TransactionExpiration&quot;,
+          &quot;IsLocal&quot;: true,
+          &quot;MaxRankId&quot;: 1,
+          &quot;MinRankId&quot;: 1,
+          &quot;DaysToExpire&quot;: 1,
+          &quot;MonthsToExpire&quot;: 1
+        }
+      ],
+      &quot;DefaultTransactionExpirationDays&quot;: 1,
+      &quot;RestorePromoExpirationOnUpload&quot;: true
+    }
+  }
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;ExpirationRule xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.PropertyInfo.Entities&quot;&gt;
+  &lt;AccountTransactionExpirationRule&gt;
+    &lt;AccountRules&gt;
+      &lt;DefaultTransactionExpirationDays&gt;1&lt;/DefaultTransactionExpirationDays&gt;
+      &lt;RestorePromoExpirationOnUpload&gt;true&lt;/RestorePromoExpirationOnUpload&gt;
+      &lt;Rules&gt;
+        &lt;Rule&gt;
+          &lt;DaysToExpire&gt;1&lt;/DaysToExpire&gt;
+          &lt;ExpirationType&gt;TransactionExpiration&lt;/ExpirationType&gt;
+          &lt;IsLocal&gt;true&lt;/IsLocal&gt;
+          &lt;MaxRankId&gt;1&lt;/MaxRankId&gt;
+          &lt;MinRankId&gt;1&lt;/MinRankId&gt;
+          &lt;MonthsToExpire&gt;1&lt;/MonthsToExpire&gt;
+          &lt;RuleId&gt;1&lt;/RuleId&gt;
+        &lt;/Rule&gt;
+        &lt;Rule&gt;
+          &lt;DaysToExpire&gt;1&lt;/DaysToExpire&gt;
+          &lt;ExpirationType&gt;TransactionExpiration&lt;/ExpirationType&gt;
+          &lt;IsLocal&gt;true&lt;/IsLocal&gt;
+          &lt;MaxRankId&gt;1&lt;/MaxRankId&gt;
+          &lt;MinRankId&gt;1&lt;/MinRankId&gt;
+          &lt;MonthsToExpire&gt;1&lt;/MonthsToExpire&gt;
+          &lt;RuleId&gt;1&lt;/RuleId&gt;
+        &lt;/Rule&gt;
+        &lt;Rule&gt;
+          &lt;DaysToExpire&gt;1&lt;/DaysToExpire&gt;
+          &lt;ExpirationType&gt;TransactionExpiration&lt;/ExpirationType&gt;
+          &lt;IsLocal&gt;true&lt;/IsLocal&gt;
+          &lt;MaxRankId&gt;1&lt;/MaxRankId&gt;
+          &lt;MinRankId&gt;1&lt;/MinRankId&gt;
+          &lt;MonthsToExpire&gt;1&lt;/MonthsToExpire&gt;
+          &lt;RuleId&gt;1&lt;/RuleId&gt;
+        &lt;/Rule&gt;
+      &lt;/Rules&gt;
+    &lt;/AccountRules&gt;
+    &lt;TransactionRules&gt;
+      &lt;UsageRestriction&gt;1&lt;/UsageRestriction&gt;
+    &lt;/TransactionRules&gt;
+  &lt;/AccountTransactionExpirationRule&gt;
+  &lt;AccountType&gt;1&lt;/AccountType&gt;
+  &lt;ExpirationRuleId&gt;1&lt;/ExpirationRuleId&gt;
+  &lt;Name&gt;sample string 1&lt;/Name&gt;
+&lt;/ExpirationRule&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;ExpirationRule&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

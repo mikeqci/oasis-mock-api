@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v1/identity/document</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v1/identity/document</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>rawDocument</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;RawData&quot;: &quot;sample string 1&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;RawIdentityDocument xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.IdScan&quot;&gt;
+  &lt;RawData&gt;sample string 1&lt;/RawData&gt;
+&lt;/RawIdentityDocument&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;RawIdentityDocument&#39;.</p>
+    </div>
+
+        </div>
+</div>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;Address1&quot;: &quot;sample string 1&quot;,
+  &quot;Address2&quot;: &quot;sample string 2&quot;,
+  &quot;Birthdate&quot;: &quot;2022-06-09T11:51:04.0994114-07:00&quot;,
+  &quot;City&quot;: &quot;sample string 4&quot;,
+  &quot;Country&quot;: &quot;sample string 5&quot;,
+  &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:04.0994114-07:00&quot;,
+  &quot;EyeColor&quot;: &quot;sample string 7&quot;,
+  &quot;FirstName&quot;: &quot;sample string 8&quot;,
+  &quot;FullName&quot;: &quot;sample string 9&quot;,
+  &quot;Gender&quot;: &quot;sample string 10&quot;,
+  &quot;HairColor&quot;: &quot;sample string 11&quot;,
+  &quot;Height&quot;: &quot;sample string 12&quot;,
+  &quot;IIN&quot;: &quot;sample string 13&quot;,
+  &quot;IssuedDate&quot;: &quot;2022-06-09T11:51:04.0994114-07:00&quot;,
+  &quot;IssuedBy&quot;: &quot;sample string 15&quot;,
+  &quot;JurisdictionCode&quot;: &quot;sample string 16&quot;,
+  &quot;LastName&quot;: &quot;sample string 17&quot;,
+  &quot;LicenseNumber&quot;: &quot;sample string 18&quot;,
+  &quot;NamePrefix&quot;: &quot;sample string 19&quot;,
+  &quot;NameSuffix&quot;: &quot;sample string 20&quot;,
+  &quot;PostalCode&quot;: &quot;sample string 21&quot;,
+  &quot;Race&quot;: &quot;sample string 22&quot;,
+  &quot;Specification&quot;: &quot;sample string 23&quot;,
+  &quot;WeightKG&quot;: &quot;sample string 24&quot;,
+  &quot;WeightLB&quot;: &quot;sample string 25&quot;,
+  &quot;MiddleName&quot;: &quot;sample string 26&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;FormattedIdentityDocument xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.IdScan&quot;&gt;
+  &lt;Address1&gt;sample string 1&lt;/Address1&gt;
+  &lt;Address2&gt;sample string 2&lt;/Address2&gt;
+  &lt;Birthdate&gt;2022-06-09T11:51:04.0994114-07:00&lt;/Birthdate&gt;
+  &lt;City&gt;sample string 4&lt;/City&gt;
+  &lt;Country&gt;sample string 5&lt;/Country&gt;
+  &lt;ExpirationDate&gt;2022-06-09T11:51:04.0994114-07:00&lt;/ExpirationDate&gt;
+  &lt;EyeColor&gt;sample string 7&lt;/EyeColor&gt;
+  &lt;FirstName&gt;sample string 8&lt;/FirstName&gt;
+  &lt;FullName&gt;sample string 9&lt;/FullName&gt;
+  &lt;Gender&gt;sample string 10&lt;/Gender&gt;
+  &lt;HairColor&gt;sample string 11&lt;/HairColor&gt;
+  &lt;Height&gt;sample string 12&lt;/Height&gt;
+  &lt;IIN&gt;sample string 13&lt;/IIN&gt;
+  &lt;IssuedBy&gt;sample string 15&lt;/IssuedBy&gt;
+  &lt;IssuedDate&gt;2022-06-09T11:51:04.0994114-07:00&lt;/IssuedDate&gt;
+  &lt;JurisdictionCode&gt;sample string 16&lt;/JurisdictionCode&gt;
+  &lt;LastName&gt;sample string 17&lt;/LastName&gt;
+  &lt;LicenseNumber&gt;sample string 18&lt;/LicenseNumber&gt;
+  &lt;MiddleName&gt;sample string 26&lt;/MiddleName&gt;
+  &lt;NamePrefix&gt;sample string 19&lt;/NamePrefix&gt;
+  &lt;NameSuffix&gt;sample string 20&lt;/NameSuffix&gt;
+  &lt;PostalCode&gt;sample string 21&lt;/PostalCode&gt;
+  &lt;Race&gt;sample string 22&lt;/Race&gt;
+  &lt;Specification&gt;sample string 23&lt;/Specification&gt;
+  &lt;WeightKG&gt;sample string 24&lt;/WeightKG&gt;
+  &lt;WeightLB&gt;sample string 25&lt;/WeightLB&gt;
+&lt;/FormattedIdentityDocument&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

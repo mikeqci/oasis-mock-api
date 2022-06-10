@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v1/PlayerInfo/{playerId}/RedemptionByPlayerId</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v1/PlayerInfo/{playerId}/RedemptionByPlayerId</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>redemption</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;PlayerId&quot;: &quot;sample string 1&quot;,
+  &quot;RedemptionId&quot;: 1,
+  &quot;AccountType&quot;: 2,
+  &quot;TransactionType&quot;: 3,
+  &quot;RedemptionType&quot;: 4,
+  &quot;ItemId&quot;: 5,
+  &quot;CompDescription&quot;: &quot;sample string 6&quot;,
+  &quot;Quantity&quot;: 7,
+  &quot;IsPromo&quot;: true,
+  &quot;PrizeTypeId&quot;: &quot;sample string 9&quot;,
+  &quot;Amount&quot;: 1.0,
+  &quot;AmountAsDollars&quot;: 1.0,
+  &quot;OriginalAmount&quot;: 10.0,
+  &quot;IssueDateTime&quot;: &quot;2022-06-09T11:51:05.0369403-07:00&quot;,
+  &quot;IssueGamingDate&quot;: &quot;2022-06-09T11:51:05.0369403-07:00&quot;,
+  &quot;IssueUserId&quot;: 1,
+  &quot;SettleDateTime&quot;: &quot;2022-06-09T11:51:05.0369403-07:00&quot;,
+  &quot;SettleGamingDate&quot;: &quot;2022-06-09T11:51:05.0369403-07:00&quot;,
+  &quot;SettleUserId&quot;: 1,
+  &quot;VoidDateTime&quot;: &quot;2022-06-09T11:51:05.0369403-07:00&quot;,
+  &quot;VoidGamingDate&quot;: &quot;2022-06-09T11:51:05.0369403-07:00&quot;,
+  &quot;VoidUserId&quot;: 1,
+  &quot;Status&quot;: &quot;sample string 11&quot;,
+  &quot;CompDescription2&quot;: &quot;sample string 12&quot;,
+  &quot;AutoSettled&quot;: true,
+  &quot;Comments&quot;: &quot;sample string 14&quot;,
+  &quot;RowVersion&quot;: &quot;QEBA&quot;,
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;Extensions&quot;: []
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;Redemption xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 15&lt;/RowVersion&gt;
+  &lt;Extensions xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.Common.Extensibility&quot; /&gt;
+  &lt;AccountType&gt;2&lt;/AccountType&gt;
+  &lt;Amount&gt;1&lt;/Amount&gt;
+  &lt;AmountAsDollars&gt;1&lt;/AmountAsDollars&gt;
+  &lt;AutoSettled&gt;true&lt;/AutoSettled&gt;
+  &lt;Comments&gt;sample string 14&lt;/Comments&gt;
+  &lt;CompDescription&gt;sample string 6&lt;/CompDescription&gt;
+  &lt;CompDescription2&gt;sample string 12&lt;/CompDescription2&gt;
+  &lt;IsPromo&gt;true&lt;/IsPromo&gt;
+  &lt;IssueDateTime&gt;2022-06-09T11:51:05.0369403-07:00&lt;/IssueDateTime&gt;
+  &lt;IssueGamingDate&gt;2022-06-09T11:51:05.0369403-07:00&lt;/IssueGamingDate&gt;
+  &lt;IssueUserId&gt;1&lt;/IssueUserId&gt;
+  &lt;ItemId&gt;5&lt;/ItemId&gt;
+  &lt;OriginalAmount&gt;10&lt;/OriginalAmount&gt;
+  &lt;PlayerId&gt;sample string 1&lt;/PlayerId&gt;
+  &lt;PrizeTypeId&gt;sample string 9&lt;/PrizeTypeId&gt;
+  &lt;Quantity&gt;7&lt;/Quantity&gt;
+  &lt;RedemptionId&gt;1&lt;/RedemptionId&gt;
+  &lt;RedemptionType&gt;4&lt;/RedemptionType&gt;
+  &lt;RowVersion&gt;QEBA&lt;/RowVersion&gt;
+  &lt;SettleDateTime&gt;2022-06-09T11:51:05.0369403-07:00&lt;/SettleDateTime&gt;
+  &lt;SettleGamingDate&gt;2022-06-09T11:51:05.0369403-07:00&lt;/SettleGamingDate&gt;
+  &lt;SettleUserId&gt;1&lt;/SettleUserId&gt;
+  &lt;Status&gt;sample string 11&lt;/Status&gt;
+  &lt;TransactionType&gt;3&lt;/TransactionType&gt;
+  &lt;VoidDateTime&gt;2022-06-09T11:51:05.0369403-07:00&lt;/VoidDateTime&gt;
+  &lt;VoidGamingDate&gt;2022-06-09T11:51:05.0369403-07:00&lt;/VoidGamingDate&gt;
+  &lt;VoidUserId&gt;1&lt;/VoidUserId&gt;
+&lt;/Redemption&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;Redemption&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

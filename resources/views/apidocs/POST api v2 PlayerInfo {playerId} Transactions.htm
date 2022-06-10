@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v2/PlayerInfo/{playerId}/Transactions</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v2/PlayerInfo/{playerId}/Transactions</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>transaction</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+[
+  {
+    &quot;AccountId&quot;: &quot;sample string 1&quot;,
+    &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+    &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+    &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+    &quot;Amount&quot;: 5.0,
+    &quot;Comment&quot;: &quot;sample string 6&quot;,
+    &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;UserId&quot;: &quot;sample string 7&quot;,
+    &quot;MachineId&quot;: &quot;sample string 8&quot;,
+    &quot;LocationId&quot;: &quot;sample string 9&quot;,
+    &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+    &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+    &quot;SyncWithMaster&quot;: true,
+    &quot;AccountName&quot;: &quot;sample string 12&quot;,
+    &quot;AccountType&quot;: &quot;sample string 13&quot;,
+    &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;NoExpirationOverrideDefaultDays&quot;: true,
+    &quot;AuditList&quot;: [
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;RowVersion&quot;: &quot;sample string 16&quot;
+  },
+  {
+    &quot;AccountId&quot;: &quot;sample string 1&quot;,
+    &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+    &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+    &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+    &quot;Amount&quot;: 5.0,
+    &quot;Comment&quot;: &quot;sample string 6&quot;,
+    &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;UserId&quot;: &quot;sample string 7&quot;,
+    &quot;MachineId&quot;: &quot;sample string 8&quot;,
+    &quot;LocationId&quot;: &quot;sample string 9&quot;,
+    &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+    &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+    &quot;SyncWithMaster&quot;: true,
+    &quot;AccountName&quot;: &quot;sample string 12&quot;,
+    &quot;AccountType&quot;: &quot;sample string 13&quot;,
+    &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;NoExpirationOverrideDefaultDays&quot;: true,
+    &quot;AuditList&quot;: [
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;RowVersion&quot;: &quot;sample string 16&quot;
+  },
+  {
+    &quot;AccountId&quot;: &quot;sample string 1&quot;,
+    &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+    &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+    &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+    &quot;Amount&quot;: 5.0,
+    &quot;Comment&quot;: &quot;sample string 6&quot;,
+    &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;UserId&quot;: &quot;sample string 7&quot;,
+    &quot;MachineId&quot;: &quot;sample string 8&quot;,
+    &quot;LocationId&quot;: &quot;sample string 9&quot;,
+    &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+    &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+    &quot;SyncWithMaster&quot;: true,
+    &quot;AccountName&quot;: &quot;sample string 12&quot;,
+    &quot;AccountType&quot;: &quot;sample string 13&quot;,
+    &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1150739-07:00&quot;,
+    &quot;NoExpirationOverrideDefaultDays&quot;: true,
+    &quot;AuditList&quot;: [
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;RowVersion&quot;: &quot;sample string 16&quot;
+  }
+]
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;ArrayOfTransaction xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;Transaction&gt;
+    &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+    &lt;/AuditList&gt;
+    &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+    &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+    &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+    &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+    &lt;Amount&gt;5&lt;/Amount&gt;
+    &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+    &lt;CreateDateTime&gt;2022-06-09T11:51:05.1150739-07:00&lt;/CreateDateTime&gt;
+    &lt;ExpirationDate&gt;2022-06-09T11:51:05.1150739-07:00&lt;/ExpirationDate&gt;
+    &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+    &lt;GamingDate&gt;2022-06-09T11:51:05.1150739-07:00&lt;/GamingDate&gt;
+    &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+    &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+    &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+    &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+    &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+    &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+    &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+    &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+    &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+  &lt;/Transaction&gt;
+  &lt;Transaction&gt;
+    &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+    &lt;/AuditList&gt;
+    &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+    &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+    &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+    &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+    &lt;Amount&gt;5&lt;/Amount&gt;
+    &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+    &lt;CreateDateTime&gt;2022-06-09T11:51:05.1150739-07:00&lt;/CreateDateTime&gt;
+    &lt;ExpirationDate&gt;2022-06-09T11:51:05.1150739-07:00&lt;/ExpirationDate&gt;
+    &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+    &lt;GamingDate&gt;2022-06-09T11:51:05.1150739-07:00&lt;/GamingDate&gt;
+    &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+    &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+    &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+    &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+    &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+    &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+    &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+    &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+    &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+  &lt;/Transaction&gt;
+  &lt;Transaction&gt;
+    &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+    &lt;/AuditList&gt;
+    &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+    &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+    &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+    &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+    &lt;Amount&gt;5&lt;/Amount&gt;
+    &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+    &lt;CreateDateTime&gt;2022-06-09T11:51:05.1150739-07:00&lt;/CreateDateTime&gt;
+    &lt;ExpirationDate&gt;2022-06-09T11:51:05.1150739-07:00&lt;/ExpirationDate&gt;
+    &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+    &lt;GamingDate&gt;2022-06-09T11:51:05.1150739-07:00&lt;/GamingDate&gt;
+    &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+    &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+    &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+    &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+    &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+    &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+    &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+    &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+    &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+  &lt;/Transaction&gt;
+&lt;/ArrayOfTransaction&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;List`1&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

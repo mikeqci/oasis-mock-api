@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/configuration/unauthenticatedsettings</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/configuration/unauthenticatedsettings</h1>
+<div>
+        <p>No documentation available.</p>
+
+
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+[
+  {
+    &quot;Name&quot;: &quot;sample string 1&quot;,
+    &quot;Value&quot;: &quot;sample string 2&quot;,
+    &quot;Group&quot;: &quot;sample string 3&quot;,
+    &quot;LookupValues&quot;: [
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;Title&quot;: &quot;sample string 4&quot;,
+    &quot;Hint&quot;: &quot;sample string 5&quot;,
+    &quot;Default&quot;: &quot;sample string 6&quot;,
+    &quot;TitleIndex&quot;: &quot;sample string 7&quot;,
+    &quot;GroupIndex&quot;: &quot;sample string 8&quot;,
+    &quot;Type&quot;: &quot;String&quot;,
+    &quot;Validation&quot;: &quot;sample string 9&quot;,
+    &quot;Encrypt&quot;: true,
+    &quot;IsRequired&quot;: true
+  },
+  {
+    &quot;Name&quot;: &quot;sample string 1&quot;,
+    &quot;Value&quot;: &quot;sample string 2&quot;,
+    &quot;Group&quot;: &quot;sample string 3&quot;,
+    &quot;LookupValues&quot;: [
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;Title&quot;: &quot;sample string 4&quot;,
+    &quot;Hint&quot;: &quot;sample string 5&quot;,
+    &quot;Default&quot;: &quot;sample string 6&quot;,
+    &quot;TitleIndex&quot;: &quot;sample string 7&quot;,
+    &quot;GroupIndex&quot;: &quot;sample string 8&quot;,
+    &quot;Type&quot;: &quot;String&quot;,
+    &quot;Validation&quot;: &quot;sample string 9&quot;,
+    &quot;Encrypt&quot;: true,
+    &quot;IsRequired&quot;: true
+  },
+  {
+    &quot;Name&quot;: &quot;sample string 1&quot;,
+    &quot;Value&quot;: &quot;sample string 2&quot;,
+    &quot;Group&quot;: &quot;sample string 3&quot;,
+    &quot;LookupValues&quot;: [
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;Value&quot;: &quot;sample string 1&quot;,
+        &quot;DisplayName&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;Title&quot;: &quot;sample string 4&quot;,
+    &quot;Hint&quot;: &quot;sample string 5&quot;,
+    &quot;Default&quot;: &quot;sample string 6&quot;,
+    &quot;TitleIndex&quot;: &quot;sample string 7&quot;,
+    &quot;GroupIndex&quot;: &quot;sample string 8&quot;,
+    &quot;Type&quot;: &quot;String&quot;,
+    &quot;Validation&quot;: &quot;sample string 9&quot;,
+    &quot;Encrypt&quot;: true,
+    &quot;IsRequired&quot;: true
+  }
+]
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;ArrayOfConfigurationSetting xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+  &lt;ConfigurationSetting&gt;
+    &lt;Default&gt;sample string 6&lt;/Default&gt;
+    &lt;Encrypt&gt;true&lt;/Encrypt&gt;
+    &lt;Group&gt;sample string 3&lt;/Group&gt;
+    &lt;GroupIndex&gt;sample string 8&lt;/GroupIndex&gt;
+    &lt;Hint&gt;sample string 5&lt;/Hint&gt;
+    &lt;IsRequired&gt;true&lt;/IsRequired&gt;
+    &lt;LookupValues&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+    &lt;/LookupValues&gt;
+    &lt;Name&gt;sample string 1&lt;/Name&gt;
+    &lt;Title&gt;sample string 4&lt;/Title&gt;
+    &lt;TitleIndex&gt;sample string 7&lt;/TitleIndex&gt;
+    &lt;Type&gt;String&lt;/Type&gt;
+    &lt;Validation&gt;sample string 9&lt;/Validation&gt;
+    &lt;Value&gt;sample string 2&lt;/Value&gt;
+  &lt;/ConfigurationSetting&gt;
+  &lt;ConfigurationSetting&gt;
+    &lt;Default&gt;sample string 6&lt;/Default&gt;
+    &lt;Encrypt&gt;true&lt;/Encrypt&gt;
+    &lt;Group&gt;sample string 3&lt;/Group&gt;
+    &lt;GroupIndex&gt;sample string 8&lt;/GroupIndex&gt;
+    &lt;Hint&gt;sample string 5&lt;/Hint&gt;
+    &lt;IsRequired&gt;true&lt;/IsRequired&gt;
+    &lt;LookupValues&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+    &lt;/LookupValues&gt;
+    &lt;Name&gt;sample string 1&lt;/Name&gt;
+    &lt;Title&gt;sample string 4&lt;/Title&gt;
+    &lt;TitleIndex&gt;sample string 7&lt;/TitleIndex&gt;
+    &lt;Type&gt;String&lt;/Type&gt;
+    &lt;Validation&gt;sample string 9&lt;/Validation&gt;
+    &lt;Value&gt;sample string 2&lt;/Value&gt;
+  &lt;/ConfigurationSetting&gt;
+  &lt;ConfigurationSetting&gt;
+    &lt;Default&gt;sample string 6&lt;/Default&gt;
+    &lt;Encrypt&gt;true&lt;/Encrypt&gt;
+    &lt;Group&gt;sample string 3&lt;/Group&gt;
+    &lt;GroupIndex&gt;sample string 8&lt;/GroupIndex&gt;
+    &lt;Hint&gt;sample string 5&lt;/Hint&gt;
+    &lt;IsRequired&gt;true&lt;/IsRequired&gt;
+    &lt;LookupValues&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+      &lt;LookupValue&gt;
+        &lt;DisplayName&gt;sample string 2&lt;/DisplayName&gt;
+        &lt;Value&gt;sample string 1&lt;/Value&gt;
+      &lt;/LookupValue&gt;
+    &lt;/LookupValues&gt;
+    &lt;Name&gt;sample string 1&lt;/Name&gt;
+    &lt;Title&gt;sample string 4&lt;/Title&gt;
+    &lt;TitleIndex&gt;sample string 7&lt;/TitleIndex&gt;
+    &lt;Type&gt;String&lt;/Type&gt;
+    &lt;Validation&gt;sample string 9&lt;/Validation&gt;
+    &lt;Value&gt;sample string 2&lt;/Value&gt;
+  &lt;/ConfigurationSetting&gt;
+&lt;/ArrayOfConfigurationSetting&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

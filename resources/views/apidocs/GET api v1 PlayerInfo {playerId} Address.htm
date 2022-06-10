@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/PlayerInfo/{playerId}/Address</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/PlayerInfo/{playerId}/Address</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+[
+  {
+    &quot;AddressId&quot;: &quot;sample string 1&quot;,
+    &quot;AddressType&quot;: &quot;sample string 2&quot;,
+    &quot;AddressCareOf&quot;: &quot;sample string 3&quot;,
+    &quot;AddressLine1&quot;: &quot;sample string 4&quot;,
+    &quot;AddressLine2&quot;: &quot;sample string 5&quot;,
+    &quot;AddressLine3&quot;: &quot;sample string 6&quot;,
+    &quot;AddressLine4&quot;: &quot;sample string 7&quot;,
+    &quot;AddressSuburb&quot;: &quot;sample string 8&quot;,
+    &quot;AddressCity&quot;: &quot;sample string 9&quot;,
+    &quot;StateProvCode&quot;: &quot;sample string 10&quot;,
+    &quot;CountryCode&quot;: &quot;sample string 11&quot;,
+    &quot;PostCode&quot;: &quot;sample string 12&quot;,
+    &quot;PostCodeExt&quot;: &quot;sample string 13&quot;,
+    &quot;AddressState&quot;: &quot;sample string 14&quot;,
+    &quot;LegalAddress&quot;: true,
+    &quot;PrimaryAddress&quot;: true,
+    &quot;MailToAddress&quot;: true,
+    &quot;ExcludeAddress&quot;: true,
+    &quot;ReturnedMail&quot;: true,
+    &quot;PlainWrapper&quot;: true,
+    &quot;AddressComment&quot;: &quot;sample string 21&quot;,
+    &quot;AuditList&quot;: [
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;RowVersion&quot;: &quot;sample string 22&quot;
+  },
+  {
+    &quot;AddressId&quot;: &quot;sample string 1&quot;,
+    &quot;AddressType&quot;: &quot;sample string 2&quot;,
+    &quot;AddressCareOf&quot;: &quot;sample string 3&quot;,
+    &quot;AddressLine1&quot;: &quot;sample string 4&quot;,
+    &quot;AddressLine2&quot;: &quot;sample string 5&quot;,
+    &quot;AddressLine3&quot;: &quot;sample string 6&quot;,
+    &quot;AddressLine4&quot;: &quot;sample string 7&quot;,
+    &quot;AddressSuburb&quot;: &quot;sample string 8&quot;,
+    &quot;AddressCity&quot;: &quot;sample string 9&quot;,
+    &quot;StateProvCode&quot;: &quot;sample string 10&quot;,
+    &quot;CountryCode&quot;: &quot;sample string 11&quot;,
+    &quot;PostCode&quot;: &quot;sample string 12&quot;,
+    &quot;PostCodeExt&quot;: &quot;sample string 13&quot;,
+    &quot;AddressState&quot;: &quot;sample string 14&quot;,
+    &quot;LegalAddress&quot;: true,
+    &quot;PrimaryAddress&quot;: true,
+    &quot;MailToAddress&quot;: true,
+    &quot;ExcludeAddress&quot;: true,
+    &quot;ReturnedMail&quot;: true,
+    &quot;PlainWrapper&quot;: true,
+    &quot;AddressComment&quot;: &quot;sample string 21&quot;,
+    &quot;AuditList&quot;: [
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;RowVersion&quot;: &quot;sample string 22&quot;
+  },
+  {
+    &quot;AddressId&quot;: &quot;sample string 1&quot;,
+    &quot;AddressType&quot;: &quot;sample string 2&quot;,
+    &quot;AddressCareOf&quot;: &quot;sample string 3&quot;,
+    &quot;AddressLine1&quot;: &quot;sample string 4&quot;,
+    &quot;AddressLine2&quot;: &quot;sample string 5&quot;,
+    &quot;AddressLine3&quot;: &quot;sample string 6&quot;,
+    &quot;AddressLine4&quot;: &quot;sample string 7&quot;,
+    &quot;AddressSuburb&quot;: &quot;sample string 8&quot;,
+    &quot;AddressCity&quot;: &quot;sample string 9&quot;,
+    &quot;StateProvCode&quot;: &quot;sample string 10&quot;,
+    &quot;CountryCode&quot;: &quot;sample string 11&quot;,
+    &quot;PostCode&quot;: &quot;sample string 12&quot;,
+    &quot;PostCodeExt&quot;: &quot;sample string 13&quot;,
+    &quot;AddressState&quot;: &quot;sample string 14&quot;,
+    &quot;LegalAddress&quot;: true,
+    &quot;PrimaryAddress&quot;: true,
+    &quot;MailToAddress&quot;: true,
+    &quot;ExcludeAddress&quot;: true,
+    &quot;ReturnedMail&quot;: true,
+    &quot;PlainWrapper&quot;: true,
+    &quot;AddressComment&quot;: &quot;sample string 21&quot;,
+    &quot;AuditList&quot;: [
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      },
+      {
+        &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+        &quot;AuditString&quot;: &quot;sample string 2&quot;
+      }
+    ],
+    &quot;RowVersion&quot;: &quot;sample string 22&quot;
+  }
+]
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;ArrayOfPlayerAddress xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;PlayerAddress&gt;
+    &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+    &lt;/AuditList&gt;
+    &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 22&lt;/RowVersion&gt;
+    &lt;AddressActive&gt;true&lt;/AddressActive&gt;
+    &lt;AddressCareOf&gt;sample string 3&lt;/AddressCareOf&gt;
+    &lt;AddressCity&gt;sample string 9&lt;/AddressCity&gt;
+    &lt;AddressComment&gt;sample string 21&lt;/AddressComment&gt;
+    &lt;AddressId&gt;sample string 1&lt;/AddressId&gt;
+    &lt;AddressLine1&gt;sample string 4&lt;/AddressLine1&gt;
+    &lt;AddressLine2&gt;sample string 5&lt;/AddressLine2&gt;
+    &lt;AddressLine3&gt;sample string 6&lt;/AddressLine3&gt;
+    &lt;AddressLine4&gt;sample string 7&lt;/AddressLine4&gt;
+    &lt;AddressState&gt;sample string 14&lt;/AddressState&gt;
+    &lt;AddressSuburb&gt;sample string 8&lt;/AddressSuburb&gt;
+    &lt;AddressType&gt;sample string 2&lt;/AddressType&gt;
+    &lt;CountryCode&gt;sample string 11&lt;/CountryCode&gt;
+    &lt;ExcludeAddress&gt;true&lt;/ExcludeAddress&gt;
+    &lt;LegalAddress&gt;true&lt;/LegalAddress&gt;
+    &lt;MailToAddress&gt;true&lt;/MailToAddress&gt;
+    &lt;PlainWrapper&gt;true&lt;/PlainWrapper&gt;
+    &lt;PostCode&gt;sample string 12&lt;/PostCode&gt;
+    &lt;PostCodeExt&gt;sample string 13&lt;/PostCodeExt&gt;
+    &lt;PrimaryAddress&gt;true&lt;/PrimaryAddress&gt;
+    &lt;ReturnedMail&gt;true&lt;/ReturnedMail&gt;
+    &lt;StateProvCode&gt;sample string 10&lt;/StateProvCode&gt;
+  &lt;/PlayerAddress&gt;
+  &lt;PlayerAddress&gt;
+    &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+    &lt;/AuditList&gt;
+    &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 22&lt;/RowVersion&gt;
+    &lt;AddressActive&gt;true&lt;/AddressActive&gt;
+    &lt;AddressCareOf&gt;sample string 3&lt;/AddressCareOf&gt;
+    &lt;AddressCity&gt;sample string 9&lt;/AddressCity&gt;
+    &lt;AddressComment&gt;sample string 21&lt;/AddressComment&gt;
+    &lt;AddressId&gt;sample string 1&lt;/AddressId&gt;
+    &lt;AddressLine1&gt;sample string 4&lt;/AddressLine1&gt;
+    &lt;AddressLine2&gt;sample string 5&lt;/AddressLine2&gt;
+    &lt;AddressLine3&gt;sample string 6&lt;/AddressLine3&gt;
+    &lt;AddressLine4&gt;sample string 7&lt;/AddressLine4&gt;
+    &lt;AddressState&gt;sample string 14&lt;/AddressState&gt;
+    &lt;AddressSuburb&gt;sample string 8&lt;/AddressSuburb&gt;
+    &lt;AddressType&gt;sample string 2&lt;/AddressType&gt;
+    &lt;CountryCode&gt;sample string 11&lt;/CountryCode&gt;
+    &lt;ExcludeAddress&gt;true&lt;/ExcludeAddress&gt;
+    &lt;LegalAddress&gt;true&lt;/LegalAddress&gt;
+    &lt;MailToAddress&gt;true&lt;/MailToAddress&gt;
+    &lt;PlainWrapper&gt;true&lt;/PlainWrapper&gt;
+    &lt;PostCode&gt;sample string 12&lt;/PostCode&gt;
+    &lt;PostCodeExt&gt;sample string 13&lt;/PostCodeExt&gt;
+    &lt;PrimaryAddress&gt;true&lt;/PrimaryAddress&gt;
+    &lt;ReturnedMail&gt;true&lt;/ReturnedMail&gt;
+    &lt;StateProvCode&gt;sample string 10&lt;/StateProvCode&gt;
+  &lt;/PlayerAddress&gt;
+  &lt;PlayerAddress&gt;
+    &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+      &lt;Audit&gt;
+        &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+        &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+      &lt;/Audit&gt;
+    &lt;/AuditList&gt;
+    &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 22&lt;/RowVersion&gt;
+    &lt;AddressActive&gt;true&lt;/AddressActive&gt;
+    &lt;AddressCareOf&gt;sample string 3&lt;/AddressCareOf&gt;
+    &lt;AddressCity&gt;sample string 9&lt;/AddressCity&gt;
+    &lt;AddressComment&gt;sample string 21&lt;/AddressComment&gt;
+    &lt;AddressId&gt;sample string 1&lt;/AddressId&gt;
+    &lt;AddressLine1&gt;sample string 4&lt;/AddressLine1&gt;
+    &lt;AddressLine2&gt;sample string 5&lt;/AddressLine2&gt;
+    &lt;AddressLine3&gt;sample string 6&lt;/AddressLine3&gt;
+    &lt;AddressLine4&gt;sample string 7&lt;/AddressLine4&gt;
+    &lt;AddressState&gt;sample string 14&lt;/AddressState&gt;
+    &lt;AddressSuburb&gt;sample string 8&lt;/AddressSuburb&gt;
+    &lt;AddressType&gt;sample string 2&lt;/AddressType&gt;
+    &lt;CountryCode&gt;sample string 11&lt;/CountryCode&gt;
+    &lt;ExcludeAddress&gt;true&lt;/ExcludeAddress&gt;
+    &lt;LegalAddress&gt;true&lt;/LegalAddress&gt;
+    &lt;MailToAddress&gt;true&lt;/MailToAddress&gt;
+    &lt;PlainWrapper&gt;true&lt;/PlainWrapper&gt;
+    &lt;PostCode&gt;sample string 12&lt;/PostCode&gt;
+    &lt;PostCodeExt&gt;sample string 13&lt;/PostCodeExt&gt;
+    &lt;PrimaryAddress&gt;true&lt;/PrimaryAddress&gt;
+    &lt;ReturnedMail&gt;true&lt;/ReturnedMail&gt;
+    &lt;StateProvCode&gt;sample string 10&lt;/StateProvCode&gt;
+  &lt;/PlayerAddress&gt;
+&lt;/ArrayOfPlayerAddress&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/clientinfo/EGMProfile/{clientId}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/clientinfo/EGMProfile/{clientId}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>clientId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;EgmCombo&quot;: [
+    {
+      &quot;DeviceClass&quot;: &quot;sample string 1&quot;,
+      &quot;DeviceId&quot;: 2,
+      &quot;ThemeId&quot;: &quot;sample string 3&quot;,
+      &quot;PaytableId&quot;: &quot;sample string 4&quot;,
+      &quot;Denom&quot;: 5,
+      &quot;MaxCredits&quot;: 6,
+      &quot;PayLines&quot;: 7,
+      &quot;ReturnPct&quot;: 8,
+      &quot;EgmComboActive&quot;: true,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 10&quot;
+    },
+    {
+      &quot;DeviceClass&quot;: &quot;sample string 1&quot;,
+      &quot;DeviceId&quot;: 2,
+      &quot;ThemeId&quot;: &quot;sample string 3&quot;,
+      &quot;PaytableId&quot;: &quot;sample string 4&quot;,
+      &quot;Denom&quot;: 5,
+      &quot;MaxCredits&quot;: 6,
+      &quot;PayLines&quot;: 7,
+      &quot;ReturnPct&quot;: 8,
+      &quot;EgmComboActive&quot;: true,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 10&quot;
+    },
+    {
+      &quot;DeviceClass&quot;: &quot;sample string 1&quot;,
+      &quot;DeviceId&quot;: 2,
+      &quot;ThemeId&quot;: &quot;sample string 3&quot;,
+      &quot;PaytableId&quot;: &quot;sample string 4&quot;,
+      &quot;Denom&quot;: 5,
+      &quot;MaxCredits&quot;: 6,
+      &quot;PayLines&quot;: 7,
+      &quot;ReturnPct&quot;: 8,
+      &quot;EgmComboActive&quot;: true,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 10&quot;
+    }
+  ],
+  &quot;EgmDevice&quot;: [
+    {
+      &quot;DeviceClass&quot;: &quot;sample string 1&quot;,
+      &quot;DeviceId&quot;: 2,
+      &quot;VendorId&quot;: &quot;sample string 3&quot;,
+      &quot;ProductId&quot;: &quot;sample string 4&quot;,
+      &quot;ReleaseNum&quot;: &quot;sample string 5&quot;,
+      &quot;VendorName&quot;: &quot;sample string 6&quot;,
+      &quot;ProductName&quot;: &quot;sample string 7&quot;,
+      &quot;SerialNum&quot;: &quot;sample string 8&quot;,
+      &quot;EgmDeviceActive&quot;: true,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 10&quot;
+    },
+    {
+      &quot;DeviceClass&quot;: &quot;sample string 1&quot;,
+      &quot;DeviceId&quot;: 2,
+      &quot;VendorId&quot;: &quot;sample string 3&quot;,
+      &quot;ProductId&quot;: &quot;sample string 4&quot;,
+      &quot;ReleaseNum&quot;: &quot;sample string 5&quot;,
+      &quot;VendorName&quot;: &quot;sample string 6&quot;,
+      &quot;ProductName&quot;: &quot;sample string 7&quot;,
+      &quot;SerialNum&quot;: &quot;sample string 8&quot;,
+      &quot;EgmDeviceActive&quot;: true,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 10&quot;
+    },
+    {
+      &quot;DeviceClass&quot;: &quot;sample string 1&quot;,
+      &quot;DeviceId&quot;: 2,
+      &quot;VendorId&quot;: &quot;sample string 3&quot;,
+      &quot;ProductId&quot;: &quot;sample string 4&quot;,
+      &quot;ReleaseNum&quot;: &quot;sample string 5&quot;,
+      &quot;VendorName&quot;: &quot;sample string 6&quot;,
+      &quot;ProductName&quot;: &quot;sample string 7&quot;,
+      &quot;SerialNum&quot;: &quot;sample string 8&quot;,
+      &quot;EgmDeviceActive&quot;: true,
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 10&quot;
+    }
+  ],
+  &quot;DeptId&quot;: &quot;sample string 1&quot;,
+  &quot;Par&quot;: 2.1,
+  &quot;MachineNum&quot;: 3,
+  &quot;MachineId&quot;: &quot;sample string 4&quot;,
+  &quot;MachineName&quot;: &quot;sample string 5&quot;,
+  &quot;CurrencyCode&quot;: &quot;sample string 6&quot;,
+  &quot;LocaleCode&quot;: &quot;sample string 7&quot;,
+  &quot;AreaId&quot;: &quot;sample string 8&quot;,
+  &quot;ZoneId&quot;: &quot;sample string 9&quot;,
+  &quot;SectionId&quot;: &quot;sample string 10&quot;,
+  &quot;Position&quot;: &quot;sample string 11&quot;,
+  &quot;GameId&quot;: &quot;sample string 12&quot;,
+  &quot;MultiGroupId&quot;: &quot;sample string 13&quot;,
+  &quot;FloorLoc&quot;: &quot;sample string 14&quot;,
+  &quot;MachineOnFloor&quot;: true,
+  &quot;MachineMoveDate&quot;: &quot;2022-06-09T09:13:57.0579739-07:00&quot;,
+  &quot;MinCombos&quot;: 17,
+  &quot;MaxCombos&quot;: 18,
+  &quot;ReportDenom&quot;: 19,
+  &quot;TokenDenom&quot;: 20.0,
+  &quot;CabinetStyle&quot;: &quot;sample string 21&quot;,
+  &quot;MediaSet&quot;: &quot;sample string 22&quot;,
+  &quot;ChannelType&quot;: &quot;sample string 23&quot;,
+  &quot;ClientID&quot;: &quot;sample string 24&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;EgmProfile xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.ClientInfo.Entities&quot;&gt;
+  &lt;AreaId&gt;sample string 8&lt;/AreaId&gt;
+  &lt;CabinetStyle&gt;sample string 21&lt;/CabinetStyle&gt;
+  &lt;ChannelType&gt;sample string 23&lt;/ChannelType&gt;
+  &lt;ClientID&gt;sample string 24&lt;/ClientID&gt;
+  &lt;CurrencyCode&gt;sample string 6&lt;/CurrencyCode&gt;
+  &lt;DeptId&gt;sample string 1&lt;/DeptId&gt;
+  &lt;EgmCombo&gt;
+    &lt;EgmCombo&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+      &lt;Denom&gt;5&lt;/Denom&gt;
+      &lt;DeviceClass&gt;sample string 1&lt;/DeviceClass&gt;
+      &lt;DeviceId&gt;2&lt;/DeviceId&gt;
+      &lt;EgmComboActive&gt;true&lt;/EgmComboActive&gt;
+      &lt;MaxCredits&gt;6&lt;/MaxCredits&gt;
+      &lt;PayLines&gt;7&lt;/PayLines&gt;
+      &lt;PaytableId&gt;sample string 4&lt;/PaytableId&gt;
+      &lt;ReturnPct&gt;8&lt;/ReturnPct&gt;
+      &lt;ThemeId&gt;sample string 3&lt;/ThemeId&gt;
+    &lt;/EgmCombo&gt;
+    &lt;EgmCombo&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+      &lt;Denom&gt;5&lt;/Denom&gt;
+      &lt;DeviceClass&gt;sample string 1&lt;/DeviceClass&gt;
+      &lt;DeviceId&gt;2&lt;/DeviceId&gt;
+      &lt;EgmComboActive&gt;true&lt;/EgmComboActive&gt;
+      &lt;MaxCredits&gt;6&lt;/MaxCredits&gt;
+      &lt;PayLines&gt;7&lt;/PayLines&gt;
+      &lt;PaytableId&gt;sample string 4&lt;/PaytableId&gt;
+      &lt;ReturnPct&gt;8&lt;/ReturnPct&gt;
+      &lt;ThemeId&gt;sample string 3&lt;/ThemeId&gt;
+    &lt;/EgmCombo&gt;
+    &lt;EgmCombo&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+      &lt;Denom&gt;5&lt;/Denom&gt;
+      &lt;DeviceClass&gt;sample string 1&lt;/DeviceClass&gt;
+      &lt;DeviceId&gt;2&lt;/DeviceId&gt;
+      &lt;EgmComboActive&gt;true&lt;/EgmComboActive&gt;
+      &lt;MaxCredits&gt;6&lt;/MaxCredits&gt;
+      &lt;PayLines&gt;7&lt;/PayLines&gt;
+      &lt;PaytableId&gt;sample string 4&lt;/PaytableId&gt;
+      &lt;ReturnPct&gt;8&lt;/ReturnPct&gt;
+      &lt;ThemeId&gt;sample string 3&lt;/ThemeId&gt;
+    &lt;/EgmCombo&gt;
+  &lt;/EgmCombo&gt;
+  &lt;EgmDevice&gt;
+    &lt;EgmDevice&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+      &lt;DeviceClass&gt;sample string 1&lt;/DeviceClass&gt;
+      &lt;DeviceId&gt;2&lt;/DeviceId&gt;
+      &lt;EgmDeviceActive&gt;true&lt;/EgmDeviceActive&gt;
+      &lt;ProductId&gt;sample string 4&lt;/ProductId&gt;
+      &lt;ProductName&gt;sample string 7&lt;/ProductName&gt;
+      &lt;ReleaseNum&gt;sample string 5&lt;/ReleaseNum&gt;
+      &lt;SerialNum&gt;sample string 8&lt;/SerialNum&gt;
+      &lt;VendorId&gt;sample string 3&lt;/VendorId&gt;
+      &lt;VendorName&gt;sample string 6&lt;/VendorName&gt;
+    &lt;/EgmDevice&gt;
+    &lt;EgmDevice&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+      &lt;DeviceClass&gt;sample string 1&lt;/DeviceClass&gt;
+      &lt;DeviceId&gt;2&lt;/DeviceId&gt;
+      &lt;EgmDeviceActive&gt;true&lt;/EgmDeviceActive&gt;
+      &lt;ProductId&gt;sample string 4&lt;/ProductId&gt;
+      &lt;ProductName&gt;sample string 7&lt;/ProductName&gt;
+      &lt;ReleaseNum&gt;sample string 5&lt;/ReleaseNum&gt;
+      &lt;SerialNum&gt;sample string 8&lt;/SerialNum&gt;
+      &lt;VendorId&gt;sample string 3&lt;/VendorId&gt;
+      &lt;VendorName&gt;sample string 6&lt;/VendorName&gt;
+    &lt;/EgmDevice&gt;
+    &lt;EgmDevice&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 10&lt;/RowVersion&gt;
+      &lt;DeviceClass&gt;sample string 1&lt;/DeviceClass&gt;
+      &lt;DeviceId&gt;2&lt;/DeviceId&gt;
+      &lt;EgmDeviceActive&gt;true&lt;/EgmDeviceActive&gt;
+      &lt;ProductId&gt;sample string 4&lt;/ProductId&gt;
+      &lt;ProductName&gt;sample string 7&lt;/ProductName&gt;
+      &lt;ReleaseNum&gt;sample string 5&lt;/ReleaseNum&gt;
+      &lt;SerialNum&gt;sample string 8&lt;/SerialNum&gt;
+      &lt;VendorId&gt;sample string 3&lt;/VendorId&gt;
+      &lt;VendorName&gt;sample string 6&lt;/VendorName&gt;
+    &lt;/EgmDevice&gt;
+  &lt;/EgmDevice&gt;
+  &lt;FloorLoc&gt;sample string 14&lt;/FloorLoc&gt;
+  &lt;GameId&gt;sample string 12&lt;/GameId&gt;
+  &lt;LocaleCode&gt;sample string 7&lt;/LocaleCode&gt;
+  &lt;MachineId&gt;sample string 4&lt;/MachineId&gt;
+  &lt;MachineMoveDate&gt;2022-06-09T09:13:57.0579739-07:00&lt;/MachineMoveDate&gt;
+  &lt;MachineName&gt;sample string 5&lt;/MachineName&gt;
+  &lt;MachineNum&gt;3&lt;/MachineNum&gt;
+  &lt;MachineOnFloor&gt;true&lt;/MachineOnFloor&gt;
+  &lt;MaxCombos&gt;18&lt;/MaxCombos&gt;
+  &lt;MediaSet&gt;sample string 22&lt;/MediaSet&gt;
+  &lt;MinCombos&gt;17&lt;/MinCombos&gt;
+  &lt;MultiGroupId&gt;sample string 13&lt;/MultiGroupId&gt;
+  &lt;Par&gt;2.1&lt;/Par&gt;
+  &lt;Position&gt;sample string 11&lt;/Position&gt;
+  &lt;ReportDenom&gt;19&lt;/ReportDenom&gt;
+  &lt;SectionId&gt;sample string 10&lt;/SectionId&gt;
+  &lt;TokenDenom&gt;20&lt;/TokenDenom&gt;
+  &lt;ZoneId&gt;sample string 9&lt;/ZoneId&gt;
+&lt;/EgmProfile&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

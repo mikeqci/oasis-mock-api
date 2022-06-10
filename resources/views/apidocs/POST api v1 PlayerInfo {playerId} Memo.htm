@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v1/PlayerInfo/{playerId}/Memo</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v1/PlayerInfo/{playerId}/Memo</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>playerComment</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;CommentId&quot;: &quot;sample string 1&quot;,
+  &quot;RecordedDateTime&quot;: &quot;2022-06-09T11:51:04.9431893-07:00&quot;,
+  &quot;RecordedStation&quot;: &quot;sample string 2&quot;,
+  &quot;RecordedEmployee&quot;: &quot;sample string 3&quot;,
+  &quot;CommentSource&quot;: &quot;sample string 4&quot;,
+  &quot;CommentText&quot;: &quot;sample string 5&quot;,
+  &quot;CommentPriority&quot;: 6,
+  &quot;CommentMandatory&quot;: true,
+  &quot;CommentExpiry&quot;: &quot;2022-06-09T11:51:04.9431893-07:00&quot;,
+  &quot;CommentTitle&quot;: &quot;sample string 9&quot;,
+  &quot;CommentRestricted&quot;: &quot;sample string 10&quot;,
+  &quot;MemoType&quot;: &quot;sample string 11&quot;,
+  &quot;ExclusionType&quot;: &quot;sample string 12&quot;,
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;RowVersion&quot;: &quot;sample string 13&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PlayerComment xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 13&lt;/RowVersion&gt;
+  &lt;CommentActive&gt;true&lt;/CommentActive&gt;
+  &lt;CommentExpiry&gt;2022-06-09T11:51:04.9431893-07:00&lt;/CommentExpiry&gt;
+  &lt;CommentId&gt;sample string 1&lt;/CommentId&gt;
+  &lt;CommentMandatory&gt;true&lt;/CommentMandatory&gt;
+  &lt;CommentPriority&gt;6&lt;/CommentPriority&gt;
+  &lt;CommentRestricted&gt;sample string 10&lt;/CommentRestricted&gt;
+  &lt;CommentSource&gt;sample string 4&lt;/CommentSource&gt;
+  &lt;CommentText&gt;sample string 5&lt;/CommentText&gt;
+  &lt;CommentTitle&gt;sample string 9&lt;/CommentTitle&gt;
+  &lt;ExclusionType&gt;sample string 12&lt;/ExclusionType&gt;
+  &lt;MemoType&gt;sample string 11&lt;/MemoType&gt;
+  &lt;RecordedDateTime&gt;2022-06-09T11:51:04.9431893-07:00&lt;/RecordedDateTime&gt;
+  &lt;RecordedEmployee&gt;sample string 3&lt;/RecordedEmployee&gt;
+  &lt;RecordedStation&gt;sample string 2&lt;/RecordedStation&gt;
+&lt;/PlayerComment&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;PlayerComment&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

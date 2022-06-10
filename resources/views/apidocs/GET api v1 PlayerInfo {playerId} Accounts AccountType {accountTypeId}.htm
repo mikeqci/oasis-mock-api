@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/PlayerInfo/{playerId}/Accounts/AccountType/{accountTypeId}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/PlayerInfo/{playerId}/Accounts/AccountType/{accountTypeId}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>playerId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="parameter-name"><b>accountTypeId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;PlayerAccount&quot;: [
+    {
+      &quot;AccountId&quot;: &quot;sample string 1&quot;,
+      &quot;AccountName&quot;: &quot;sample string 2&quot;,
+      &quot;AccountType&quot;: &quot;sample string 3&quot;,
+      &quot;PinProtected&quot;: true,
+      &quot;CurrencyCode&quot;: &quot;sample string 5&quot;,
+      &quot;AccountExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;AccountExpirySpecified&quot;: true,
+      &quot;WithdrawOk&quot;: true,
+      &quot;DepositOk&quot;: true,
+      &quot;SelectAmount&quot;: true,
+      &quot;LocalDefaultAmount&quot;: 11,
+      &quot;LocalWithdrawMin&quot;: 12,
+      &quot;LocalWithdrawMax&quot;: 13,
+      &quot;LocalWithdrawInc&quot;: 14,
+      &quot;LocalDepositMin&quot;: 15,
+      &quot;LocalDepositMax&quot;: 16,
+      &quot;ForeignCode&quot;: &quot;sample string 17&quot;,
+      &quot;ForeignRate&quot;: 18,
+      &quot;ExpirationDays&quot;: 1,
+      &quot;ForeignExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;ForeignExpirySpecified&quot;: true,
+      &quot;ForeignDefaultAmount&quot;: 22,
+      &quot;ForeignWithdrawMin&quot;: 23,
+      &quot;ForeignWithdrawMax&quot;: 24,
+      &quot;ForeignWithdrawInc&quot;: 25,
+      &quot;ForeignDepositMin&quot;: 26,
+      &quot;ForeignDepositMax&quot;: 27,
+      &quot;AccountActiveField&quot;: true,
+      &quot;UserComments&quot;: &quot;sample string 29&quot;,
+      &quot;RowVersion&quot;: &quot;sample string 31&quot;,
+      &quot;AccountOwnership&quot;: true,
+      &quot;OwnershipAttributes&quot;: {
+        &quot;sample string 1&quot;: &quot;sample string 2&quot;,
+        &quot;sample string 3&quot;: &quot;sample string 4&quot;,
+        &quot;sample string 5&quot;: &quot;sample string 6&quot;
+      },
+      &quot;Transactions&quot;: [
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        },
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        },
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ]
+    },
+    {
+      &quot;AccountId&quot;: &quot;sample string 1&quot;,
+      &quot;AccountName&quot;: &quot;sample string 2&quot;,
+      &quot;AccountType&quot;: &quot;sample string 3&quot;,
+      &quot;PinProtected&quot;: true,
+      &quot;CurrencyCode&quot;: &quot;sample string 5&quot;,
+      &quot;AccountExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;AccountExpirySpecified&quot;: true,
+      &quot;WithdrawOk&quot;: true,
+      &quot;DepositOk&quot;: true,
+      &quot;SelectAmount&quot;: true,
+      &quot;LocalDefaultAmount&quot;: 11,
+      &quot;LocalWithdrawMin&quot;: 12,
+      &quot;LocalWithdrawMax&quot;: 13,
+      &quot;LocalWithdrawInc&quot;: 14,
+      &quot;LocalDepositMin&quot;: 15,
+      &quot;LocalDepositMax&quot;: 16,
+      &quot;ForeignCode&quot;: &quot;sample string 17&quot;,
+      &quot;ForeignRate&quot;: 18,
+      &quot;ExpirationDays&quot;: 1,
+      &quot;ForeignExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;ForeignExpirySpecified&quot;: true,
+      &quot;ForeignDefaultAmount&quot;: 22,
+      &quot;ForeignWithdrawMin&quot;: 23,
+      &quot;ForeignWithdrawMax&quot;: 24,
+      &quot;ForeignWithdrawInc&quot;: 25,
+      &quot;ForeignDepositMin&quot;: 26,
+      &quot;ForeignDepositMax&quot;: 27,
+      &quot;AccountActiveField&quot;: true,
+      &quot;UserComments&quot;: &quot;sample string 29&quot;,
+      &quot;RowVersion&quot;: &quot;sample string 31&quot;,
+      &quot;AccountOwnership&quot;: true,
+      &quot;OwnershipAttributes&quot;: {
+        &quot;sample string 1&quot;: &quot;sample string 2&quot;,
+        &quot;sample string 3&quot;: &quot;sample string 4&quot;,
+        &quot;sample string 5&quot;: &quot;sample string 6&quot;
+      },
+      &quot;Transactions&quot;: [
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        },
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        },
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ]
+    },
+    {
+      &quot;AccountId&quot;: &quot;sample string 1&quot;,
+      &quot;AccountName&quot;: &quot;sample string 2&quot;,
+      &quot;AccountType&quot;: &quot;sample string 3&quot;,
+      &quot;PinProtected&quot;: true,
+      &quot;CurrencyCode&quot;: &quot;sample string 5&quot;,
+      &quot;AccountExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;AccountExpirySpecified&quot;: true,
+      &quot;WithdrawOk&quot;: true,
+      &quot;DepositOk&quot;: true,
+      &quot;SelectAmount&quot;: true,
+      &quot;LocalDefaultAmount&quot;: 11,
+      &quot;LocalWithdrawMin&quot;: 12,
+      &quot;LocalWithdrawMax&quot;: 13,
+      &quot;LocalWithdrawInc&quot;: 14,
+      &quot;LocalDepositMin&quot;: 15,
+      &quot;LocalDepositMax&quot;: 16,
+      &quot;ForeignCode&quot;: &quot;sample string 17&quot;,
+      &quot;ForeignRate&quot;: 18,
+      &quot;ExpirationDays&quot;: 1,
+      &quot;ForeignExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;ForeignExpirySpecified&quot;: true,
+      &quot;ForeignDefaultAmount&quot;: 22,
+      &quot;ForeignWithdrawMin&quot;: 23,
+      &quot;ForeignWithdrawMax&quot;: 24,
+      &quot;ForeignWithdrawInc&quot;: 25,
+      &quot;ForeignDepositMin&quot;: 26,
+      &quot;ForeignDepositMax&quot;: 27,
+      &quot;AccountActiveField&quot;: true,
+      &quot;UserComments&quot;: &quot;sample string 29&quot;,
+      &quot;RowVersion&quot;: &quot;sample string 31&quot;,
+      &quot;AccountOwnership&quot;: true,
+      &quot;OwnershipAttributes&quot;: {
+        &quot;sample string 1&quot;: &quot;sample string 2&quot;,
+        &quot;sample string 3&quot;: &quot;sample string 4&quot;,
+        &quot;sample string 5&quot;: &quot;sample string 6&quot;
+      },
+      &quot;Transactions&quot;: [
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        },
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        },
+        {
+          &quot;AccountId&quot;: &quot;sample string 1&quot;,
+          &quot;TransactionId&quot;: &quot;sample string 2&quot;,
+          &quot;TransactionType&quot;: &quot;sample string 3&quot;,
+          &quot;ExternalTransactionId&quot;: &quot;sample string 4&quot;,
+          &quot;Amount&quot;: 5.0,
+          &quot;Comment&quot;: &quot;sample string 6&quot;,
+          &quot;CreateDateTime&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;UserId&quot;: &quot;sample string 7&quot;,
+          &quot;MachineId&quot;: &quot;sample string 8&quot;,
+          &quot;LocationId&quot;: &quot;sample string 9&quot;,
+          &quot;ExpirationDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;ReferenceTransactionId&quot;: &quot;sample string 10&quot;,
+          &quot;ShiftId&quot;: &quot;sample string 11&quot;,
+          &quot;SyncWithMaster&quot;: true,
+          &quot;AccountName&quot;: &quot;sample string 12&quot;,
+          &quot;AccountType&quot;: &quot;sample string 13&quot;,
+          &quot;GamingDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;NoExpirationOverrideDefaultDays&quot;: true,
+          &quot;AuditList&quot;: [
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            },
+            {
+              &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+              &quot;AuditString&quot;: &quot;sample string 2&quot;
+            }
+          ],
+          &quot;RowVersion&quot;: &quot;sample string 16&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ]
+    }
+  ],
+  &quot;PlayerBalance&quot;: [
+    {
+      &quot;AccountId&quot;: &quot;sample string 1&quot;,
+      &quot;CompLocId&quot;: &quot;sample string 2&quot;,
+      &quot;CompItemId&quot;: &quot;sample string 3&quot;,
+      &quot;AccountFrozen&quot;: true,
+      &quot;AccountFrozenDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;AccountBalance&quot;: 5.0,
+      &quot;AccountAvailability&quot;: 7,
+      &quot;ForeignCode&quot;: &quot;sample string 8&quot;,
+      &quot;ForeignRate&quot;: 9,
+      &quot;ForeignExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;ForeignBalance&quot;: 11,
+      &quot;ForeignAvailability&quot;: 12,
+      &quot;AccountLimitBalances&quot;: [
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 13&quot;
+    },
+    {
+      &quot;AccountId&quot;: &quot;sample string 1&quot;,
+      &quot;CompLocId&quot;: &quot;sample string 2&quot;,
+      &quot;CompItemId&quot;: &quot;sample string 3&quot;,
+      &quot;AccountFrozen&quot;: true,
+      &quot;AccountFrozenDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;AccountBalance&quot;: 5.0,
+      &quot;AccountAvailability&quot;: 7,
+      &quot;ForeignCode&quot;: &quot;sample string 8&quot;,
+      &quot;ForeignRate&quot;: 9,
+      &quot;ForeignExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;ForeignBalance&quot;: 11,
+      &quot;ForeignAvailability&quot;: 12,
+      &quot;AccountLimitBalances&quot;: [
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 13&quot;
+    },
+    {
+      &quot;AccountId&quot;: &quot;sample string 1&quot;,
+      &quot;CompLocId&quot;: &quot;sample string 2&quot;,
+      &quot;CompItemId&quot;: &quot;sample string 3&quot;,
+      &quot;AccountFrozen&quot;: true,
+      &quot;AccountFrozenDate&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;AccountBalance&quot;: 5.0,
+      &quot;AccountAvailability&quot;: 7,
+      &quot;ForeignCode&quot;: &quot;sample string 8&quot;,
+      &quot;ForeignRate&quot;: 9,
+      &quot;ForeignExpiry&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+      &quot;ForeignBalance&quot;: 11,
+      &quot;ForeignAvailability&quot;: 12,
+      &quot;AccountLimitBalances&quot;: [
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        },
+        {
+          &quot;LimitId&quot;: 1,
+          &quot;RunningTotal&quot;: 2.0,
+          &quot;ExpiresOn&quot;: &quot;2022-06-09T11:51:05.1463236-07:00&quot;,
+          &quot;CheckSum&quot;: &quot;sample string 4&quot;
+        }
+      ],
+      &quot;AuditList&quot;: [
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        },
+        {
+          &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+          &quot;AuditString&quot;: &quot;sample string 2&quot;
+        }
+      ],
+      &quot;RowVersion&quot;: &quot;sample string 13&quot;
+    }
+  ],
+  &quot;AuditList&quot;: [
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    },
+    {
+      &quot;AuditEventId&quot;: &quot;sample string 1&quot;,
+      &quot;AuditString&quot;: &quot;sample string 2&quot;
+    }
+  ],
+  &quot;RowVersion&quot;: &quot;sample string 2&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PlayerAccountBalance xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.PlayerInfo.Entities&quot;&gt;
+  &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+    &lt;Audit&gt;
+      &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+      &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+    &lt;/Audit&gt;
+  &lt;/AuditList&gt;
+  &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 2&lt;/RowVersion&gt;
+  &lt;PlayerAccount&gt;
+    &lt;PlayerAccount&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 31&lt;/RowVersion&gt;
+      &lt;AccountActiveField&gt;true&lt;/AccountActiveField&gt;
+      &lt;AccountExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/AccountExpiry&gt;
+      &lt;AccountExpirySpecified&gt;true&lt;/AccountExpirySpecified&gt;
+      &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+      &lt;AccountName&gt;sample string 2&lt;/AccountName&gt;
+      &lt;AccountOwnership&gt;true&lt;/AccountOwnership&gt;
+      &lt;AccountType&gt;sample string 3&lt;/AccountType&gt;
+      &lt;CreditType&gt;S2S_cashable&lt;/CreditType&gt;
+      &lt;CurrencyCode&gt;sample string 5&lt;/CurrencyCode&gt;
+      &lt;DepositOk&gt;true&lt;/DepositOk&gt;
+      &lt;ExpirationDays&gt;1&lt;/ExpirationDays&gt;
+      &lt;ForeignCode&gt;sample string 17&lt;/ForeignCode&gt;
+      &lt;ForeignDefaultAmount&gt;22&lt;/ForeignDefaultAmount&gt;
+      &lt;ForeignDepositMax&gt;27&lt;/ForeignDepositMax&gt;
+      &lt;ForeignDepositMin&gt;26&lt;/ForeignDepositMin&gt;
+      &lt;ForeignExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ForeignExpiry&gt;
+      &lt;ForeignExpirySpecified&gt;true&lt;/ForeignExpirySpecified&gt;
+      &lt;ForeignRate&gt;18&lt;/ForeignRate&gt;
+      &lt;ForeignWithdrawInc&gt;25&lt;/ForeignWithdrawInc&gt;
+      &lt;ForeignWithdrawMax&gt;24&lt;/ForeignWithdrawMax&gt;
+      &lt;ForeignWithdrawMin&gt;23&lt;/ForeignWithdrawMin&gt;
+      &lt;LocalDefaultAmount&gt;11&lt;/LocalDefaultAmount&gt;
+      &lt;LocalDepositMax&gt;16&lt;/LocalDepositMax&gt;
+      &lt;LocalDepositMin&gt;15&lt;/LocalDepositMin&gt;
+      &lt;LocalWithdrawInc&gt;14&lt;/LocalWithdrawInc&gt;
+      &lt;LocalWithdrawMax&gt;13&lt;/LocalWithdrawMax&gt;
+      &lt;LocalWithdrawMin&gt;12&lt;/LocalWithdrawMin&gt;
+      &lt;OwnershipAttributes xmlns:d4p1=&quot;http://schemas.microsoft.com/2003/10/Serialization/Arrays&quot;&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 1&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 2&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 3&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 4&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 5&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 6&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+      &lt;/OwnershipAttributes&gt;
+      &lt;PinProtected&gt;true&lt;/PinProtected&gt;
+      &lt;SelectAmount&gt;true&lt;/SelectAmount&gt;
+      &lt;Transactions&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+      &lt;/Transactions&gt;
+      &lt;UserComments&gt;sample string 29&lt;/UserComments&gt;
+      &lt;WithdrawOk&gt;true&lt;/WithdrawOk&gt;
+    &lt;/PlayerAccount&gt;
+    &lt;PlayerAccount&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 31&lt;/RowVersion&gt;
+      &lt;AccountActiveField&gt;true&lt;/AccountActiveField&gt;
+      &lt;AccountExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/AccountExpiry&gt;
+      &lt;AccountExpirySpecified&gt;true&lt;/AccountExpirySpecified&gt;
+      &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+      &lt;AccountName&gt;sample string 2&lt;/AccountName&gt;
+      &lt;AccountOwnership&gt;true&lt;/AccountOwnership&gt;
+      &lt;AccountType&gt;sample string 3&lt;/AccountType&gt;
+      &lt;CreditType&gt;S2S_cashable&lt;/CreditType&gt;
+      &lt;CurrencyCode&gt;sample string 5&lt;/CurrencyCode&gt;
+      &lt;DepositOk&gt;true&lt;/DepositOk&gt;
+      &lt;ExpirationDays&gt;1&lt;/ExpirationDays&gt;
+      &lt;ForeignCode&gt;sample string 17&lt;/ForeignCode&gt;
+      &lt;ForeignDefaultAmount&gt;22&lt;/ForeignDefaultAmount&gt;
+      &lt;ForeignDepositMax&gt;27&lt;/ForeignDepositMax&gt;
+      &lt;ForeignDepositMin&gt;26&lt;/ForeignDepositMin&gt;
+      &lt;ForeignExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ForeignExpiry&gt;
+      &lt;ForeignExpirySpecified&gt;true&lt;/ForeignExpirySpecified&gt;
+      &lt;ForeignRate&gt;18&lt;/ForeignRate&gt;
+      &lt;ForeignWithdrawInc&gt;25&lt;/ForeignWithdrawInc&gt;
+      &lt;ForeignWithdrawMax&gt;24&lt;/ForeignWithdrawMax&gt;
+      &lt;ForeignWithdrawMin&gt;23&lt;/ForeignWithdrawMin&gt;
+      &lt;LocalDefaultAmount&gt;11&lt;/LocalDefaultAmount&gt;
+      &lt;LocalDepositMax&gt;16&lt;/LocalDepositMax&gt;
+      &lt;LocalDepositMin&gt;15&lt;/LocalDepositMin&gt;
+      &lt;LocalWithdrawInc&gt;14&lt;/LocalWithdrawInc&gt;
+      &lt;LocalWithdrawMax&gt;13&lt;/LocalWithdrawMax&gt;
+      &lt;LocalWithdrawMin&gt;12&lt;/LocalWithdrawMin&gt;
+      &lt;OwnershipAttributes xmlns:d4p1=&quot;http://schemas.microsoft.com/2003/10/Serialization/Arrays&quot;&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 1&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 2&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 3&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 4&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 5&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 6&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+      &lt;/OwnershipAttributes&gt;
+      &lt;PinProtected&gt;true&lt;/PinProtected&gt;
+      &lt;SelectAmount&gt;true&lt;/SelectAmount&gt;
+      &lt;Transactions&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+      &lt;/Transactions&gt;
+      &lt;UserComments&gt;sample string 29&lt;/UserComments&gt;
+      &lt;WithdrawOk&gt;true&lt;/WithdrawOk&gt;
+    &lt;/PlayerAccount&gt;
+    &lt;PlayerAccount&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 31&lt;/RowVersion&gt;
+      &lt;AccountActiveField&gt;true&lt;/AccountActiveField&gt;
+      &lt;AccountExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/AccountExpiry&gt;
+      &lt;AccountExpirySpecified&gt;true&lt;/AccountExpirySpecified&gt;
+      &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+      &lt;AccountName&gt;sample string 2&lt;/AccountName&gt;
+      &lt;AccountOwnership&gt;true&lt;/AccountOwnership&gt;
+      &lt;AccountType&gt;sample string 3&lt;/AccountType&gt;
+      &lt;CreditType&gt;S2S_cashable&lt;/CreditType&gt;
+      &lt;CurrencyCode&gt;sample string 5&lt;/CurrencyCode&gt;
+      &lt;DepositOk&gt;true&lt;/DepositOk&gt;
+      &lt;ExpirationDays&gt;1&lt;/ExpirationDays&gt;
+      &lt;ForeignCode&gt;sample string 17&lt;/ForeignCode&gt;
+      &lt;ForeignDefaultAmount&gt;22&lt;/ForeignDefaultAmount&gt;
+      &lt;ForeignDepositMax&gt;27&lt;/ForeignDepositMax&gt;
+      &lt;ForeignDepositMin&gt;26&lt;/ForeignDepositMin&gt;
+      &lt;ForeignExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ForeignExpiry&gt;
+      &lt;ForeignExpirySpecified&gt;true&lt;/ForeignExpirySpecified&gt;
+      &lt;ForeignRate&gt;18&lt;/ForeignRate&gt;
+      &lt;ForeignWithdrawInc&gt;25&lt;/ForeignWithdrawInc&gt;
+      &lt;ForeignWithdrawMax&gt;24&lt;/ForeignWithdrawMax&gt;
+      &lt;ForeignWithdrawMin&gt;23&lt;/ForeignWithdrawMin&gt;
+      &lt;LocalDefaultAmount&gt;11&lt;/LocalDefaultAmount&gt;
+      &lt;LocalDepositMax&gt;16&lt;/LocalDepositMax&gt;
+      &lt;LocalDepositMin&gt;15&lt;/LocalDepositMin&gt;
+      &lt;LocalWithdrawInc&gt;14&lt;/LocalWithdrawInc&gt;
+      &lt;LocalWithdrawMax&gt;13&lt;/LocalWithdrawMax&gt;
+      &lt;LocalWithdrawMin&gt;12&lt;/LocalWithdrawMin&gt;
+      &lt;OwnershipAttributes xmlns:d4p1=&quot;http://schemas.microsoft.com/2003/10/Serialization/Arrays&quot;&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 1&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 2&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 3&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 4&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+        &lt;d4p1:KeyValueOfstringstring&gt;
+          &lt;d4p1:Key&gt;sample string 5&lt;/d4p1:Key&gt;
+          &lt;d4p1:Value&gt;sample string 6&lt;/d4p1:Value&gt;
+        &lt;/d4p1:KeyValueOfstringstring&gt;
+      &lt;/OwnershipAttributes&gt;
+      &lt;PinProtected&gt;true&lt;/PinProtected&gt;
+      &lt;SelectAmount&gt;true&lt;/SelectAmount&gt;
+      &lt;Transactions&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+        &lt;Transaction&gt;
+          &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+            &lt;Audit&gt;
+              &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+              &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+            &lt;/Audit&gt;
+          &lt;/AuditList&gt;
+          &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 16&lt;/RowVersion&gt;
+          &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+          &lt;AccountName&gt;sample string 12&lt;/AccountName&gt;
+          &lt;AccountType&gt;sample string 13&lt;/AccountType&gt;
+          &lt;Amount&gt;5&lt;/Amount&gt;
+          &lt;Comment&gt;sample string 6&lt;/Comment&gt;
+          &lt;CreateDateTime&gt;2022-06-09T11:51:05.1463236-07:00&lt;/CreateDateTime&gt;
+          &lt;ExpirationDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpirationDate&gt;
+          &lt;ExternalTransactionId&gt;sample string 4&lt;/ExternalTransactionId&gt;
+          &lt;GamingDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/GamingDate&gt;
+          &lt;LocationId&gt;sample string 9&lt;/LocationId&gt;
+          &lt;MachineId&gt;sample string 8&lt;/MachineId&gt;
+          &lt;NoExpirationOverrideDefaultDays&gt;true&lt;/NoExpirationOverrideDefaultDays&gt;
+          &lt;ReferenceTransactionId&gt;sample string 10&lt;/ReferenceTransactionId&gt;
+          &lt;ShiftId&gt;sample string 11&lt;/ShiftId&gt;
+          &lt;SyncWithMaster&gt;true&lt;/SyncWithMaster&gt;
+          &lt;TransactionId&gt;sample string 2&lt;/TransactionId&gt;
+          &lt;TransactionType&gt;sample string 3&lt;/TransactionType&gt;
+          &lt;UserId&gt;sample string 7&lt;/UserId&gt;
+        &lt;/Transaction&gt;
+      &lt;/Transactions&gt;
+      &lt;UserComments&gt;sample string 29&lt;/UserComments&gt;
+      &lt;WithdrawOk&gt;true&lt;/WithdrawOk&gt;
+    &lt;/PlayerAccount&gt;
+  &lt;/PlayerAccount&gt;
+  &lt;PlayerBalance&gt;
+    &lt;PlayerBalance&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 13&lt;/RowVersion&gt;
+      &lt;AccountAvailability&gt;7&lt;/AccountAvailability&gt;
+      &lt;AccountBalance&gt;5&lt;/AccountBalance&gt;
+      &lt;AccountFrozen&gt;true&lt;/AccountFrozen&gt;
+      &lt;AccountFrozenDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/AccountFrozenDate&gt;
+      &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+      &lt;AccountLimitBalances&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+      &lt;/AccountLimitBalances&gt;
+      &lt;CompItemId&gt;sample string 3&lt;/CompItemId&gt;
+      &lt;CompLocId&gt;sample string 2&lt;/CompLocId&gt;
+      &lt;ForeignAvailability&gt;12&lt;/ForeignAvailability&gt;
+      &lt;ForeignBalance&gt;11&lt;/ForeignBalance&gt;
+      &lt;ForeignCode&gt;sample string 8&lt;/ForeignCode&gt;
+      &lt;ForeignExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ForeignExpiry&gt;
+      &lt;ForeignRate&gt;9&lt;/ForeignRate&gt;
+    &lt;/PlayerBalance&gt;
+    &lt;PlayerBalance&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 13&lt;/RowVersion&gt;
+      &lt;AccountAvailability&gt;7&lt;/AccountAvailability&gt;
+      &lt;AccountBalance&gt;5&lt;/AccountBalance&gt;
+      &lt;AccountFrozen&gt;true&lt;/AccountFrozen&gt;
+      &lt;AccountFrozenDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/AccountFrozenDate&gt;
+      &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+      &lt;AccountLimitBalances&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+      &lt;/AccountLimitBalances&gt;
+      &lt;CompItemId&gt;sample string 3&lt;/CompItemId&gt;
+      &lt;CompLocId&gt;sample string 2&lt;/CompLocId&gt;
+      &lt;ForeignAvailability&gt;12&lt;/ForeignAvailability&gt;
+      &lt;ForeignBalance&gt;11&lt;/ForeignBalance&gt;
+      &lt;ForeignCode&gt;sample string 8&lt;/ForeignCode&gt;
+      &lt;ForeignExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ForeignExpiry&gt;
+      &lt;ForeignRate&gt;9&lt;/ForeignRate&gt;
+    &lt;/PlayerBalance&gt;
+    &lt;PlayerBalance&gt;
+      &lt;AuditList xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+        &lt;Audit&gt;
+          &lt;AuditEventId&gt;sample string 1&lt;/AuditEventId&gt;
+          &lt;AuditString&gt;sample string 2&lt;/AuditString&gt;
+        &lt;/Audit&gt;
+      &lt;/AuditList&gt;
+      &lt;RowVersion xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.Core.BaseEntities&quot;&gt;sample string 13&lt;/RowVersion&gt;
+      &lt;AccountAvailability&gt;7&lt;/AccountAvailability&gt;
+      &lt;AccountBalance&gt;5&lt;/AccountBalance&gt;
+      &lt;AccountFrozen&gt;true&lt;/AccountFrozen&gt;
+      &lt;AccountFrozenDate&gt;2022-06-09T11:51:05.1463236-07:00&lt;/AccountFrozenDate&gt;
+      &lt;AccountId&gt;sample string 1&lt;/AccountId&gt;
+      &lt;AccountLimitBalances&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+        &lt;AccountLimitBalance&gt;
+          &lt;CheckSum&gt;sample string 4&lt;/CheckSum&gt;
+          &lt;ExpiresOn&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ExpiresOn&gt;
+          &lt;LimitId&gt;1&lt;/LimitId&gt;
+          &lt;RunningTotal&gt;2&lt;/RunningTotal&gt;
+        &lt;/AccountLimitBalance&gt;
+      &lt;/AccountLimitBalances&gt;
+      &lt;CompItemId&gt;sample string 3&lt;/CompItemId&gt;
+      &lt;CompLocId&gt;sample string 2&lt;/CompLocId&gt;
+      &lt;ForeignAvailability&gt;12&lt;/ForeignAvailability&gt;
+      &lt;ForeignBalance&gt;11&lt;/ForeignBalance&gt;
+      &lt;ForeignCode&gt;sample string 8&lt;/ForeignCode&gt;
+      &lt;ForeignExpiry&gt;2022-06-09T11:51:05.1463236-07:00&lt;/ForeignExpiry&gt;
+      &lt;ForeignRate&gt;9&lt;/ForeignRate&gt;
+    &lt;/PlayerBalance&gt;
+  &lt;/PlayerBalance&gt;
+&lt;/PlayerAccountBalance&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

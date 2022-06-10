@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v1/propertyinfo/Tracking</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v1/propertyinfo/Tracking</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>propertyInfoTracking</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;TrackingID&quot;: &quot;sample string 1&quot;,
+  &quot;StatType&quot;: &quot;sample string 2&quot;,
+  &quot;StartDatetime&quot;: &quot;2022-06-09T11:51:03.0525158-07:00&quot;,
+  &quot;EndDatetime&quot;: &quot;2022-06-09T11:51:03.0525158-07:00&quot;,
+  &quot;GamingDate&quot;: &quot;2022-06-09T11:51:03.0525158-07:00&quot;,
+  &quot;MachineID&quot;: &quot;sample string 3&quot;,
+  &quot;ShiftID&quot;: &quot;sample string 4&quot;,
+  &quot;TimePlayed&quot;: 1.1,
+  &quot;Denom&quot;: 1.0,
+  &quot;CashIn&quot;: 1.0,
+  &quot;PromoPlay&quot;: 1.0,
+  &quot;MoneyPlay&quot;: 1.0,
+  &quot;CashOut&quot;: 1.0,
+  &quot;Jackpot&quot;: 1.0,
+  &quot;TheoWin&quot;: 1.0,
+  &quot;CalcID&quot;: &quot;sample string 5&quot;,
+  &quot;IsSuspended&quot;: true,
+  &quot;IsBad&quot;: true,
+  &quot;RatedByUserID&quot;: &quot;sample string 8&quot;,
+  &quot;UserID&quot;: &quot;sample string 9&quot;,
+  &quot;LocationID&quot;: &quot;sample string 10&quot;,
+  &quot;FrontIn&quot;: 1.0,
+  &quot;ChipsIn&quot;: 1.0,
+  &quot;CreditIn&quot;: 1.0,
+  &quot;TableGameSkill&quot;: &quot;sample string 11&quot;,
+  &quot;TableGameSpeed&quot;: &quot;sample string 12&quot;,
+  &quot;AverageBet1&quot;: 1.0,
+  &quot;AverageBet2&quot;: 1.0,
+  &quot;AverageBet3&quot;: 1.0,
+  &quot;CardNumber&quot;: &quot;sample string 13&quot;
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PropertyInfoTracking xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.PropertyInfo.Entities&quot;&gt;
+  &lt;AverageBet1&gt;1&lt;/AverageBet1&gt;
+  &lt;AverageBet2&gt;1&lt;/AverageBet2&gt;
+  &lt;AverageBet3&gt;1&lt;/AverageBet3&gt;
+  &lt;CalcID&gt;sample string 5&lt;/CalcID&gt;
+  &lt;CardNumber&gt;sample string 13&lt;/CardNumber&gt;
+  &lt;CashIn&gt;1&lt;/CashIn&gt;
+  &lt;CashOut&gt;1&lt;/CashOut&gt;
+  &lt;ChipsIn&gt;1&lt;/ChipsIn&gt;
+  &lt;CreditIn&gt;1&lt;/CreditIn&gt;
+  &lt;Denom&gt;1&lt;/Denom&gt;
+  &lt;EndDatetime&gt;2022-06-09T11:51:03.0525158-07:00&lt;/EndDatetime&gt;
+  &lt;FrontIn&gt;1&lt;/FrontIn&gt;
+  &lt;GamingDate&gt;2022-06-09T11:51:03.0525158-07:00&lt;/GamingDate&gt;
+  &lt;IsBad&gt;true&lt;/IsBad&gt;
+  &lt;IsSuspended&gt;true&lt;/IsSuspended&gt;
+  &lt;Jackpot&gt;1&lt;/Jackpot&gt;
+  &lt;LocationID&gt;sample string 10&lt;/LocationID&gt;
+  &lt;MachineID&gt;sample string 3&lt;/MachineID&gt;
+  &lt;MoneyPlay&gt;1&lt;/MoneyPlay&gt;
+  &lt;PromoPlay&gt;1&lt;/PromoPlay&gt;
+  &lt;RatedByUserID&gt;sample string 8&lt;/RatedByUserID&gt;
+  &lt;ShiftID&gt;sample string 4&lt;/ShiftID&gt;
+  &lt;StartDatetime&gt;2022-06-09T11:51:03.0525158-07:00&lt;/StartDatetime&gt;
+  &lt;StatType&gt;sample string 2&lt;/StatType&gt;
+  &lt;TableGameSkill&gt;sample string 11&lt;/TableGameSkill&gt;
+  &lt;TableGameSpeed&gt;sample string 12&lt;/TableGameSpeed&gt;
+  &lt;TheoWin&gt;1&lt;/TheoWin&gt;
+  &lt;TimePlayed&gt;1.1&lt;/TimePlayed&gt;
+  &lt;TrackingID&gt;sample string 1&lt;/TrackingID&gt;
+  &lt;UserID&gt;sample string 9&lt;/UserID&gt;
+&lt;/PropertyInfoTracking&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;PropertyInfoTracking&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

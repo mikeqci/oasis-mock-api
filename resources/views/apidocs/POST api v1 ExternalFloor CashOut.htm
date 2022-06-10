@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>POST api/v1/ExternalFloor/CashOut</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>POST api/v1/ExternalFloor/CashOut</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>cashOut</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>body</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>            <h3>Request body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;SessionId&quot;: 1,
+  &quot;PlayerStationMfg&quot;: &quot;sample string 2&quot;,
+  &quot;PlayerStationId&quot;: &quot;sample string 3&quot;,
+  &quot;PlayerStationGuid&quot;: &quot;sample string 4&quot;,
+  &quot;CardNumber&quot;: &quot;sample string 5&quot;,
+  &quot;AccountNumber&quot;: 6,
+  &quot;PenniesCashedOut&quot;: 7,
+  &quot;TimeStamp&quot;: &quot;2022-06-09T11:51:03.9900404-07:00&quot;,
+  &quot;DialogId&quot;: &quot;15273dd0-62ca-4228-8209-310cf60467d7&quot;,
+  &quot;PacketKey&quot;: 10,
+  &quot;MessageIdentifier&quot;: &quot;0d28b9d4-a73d-4fda-b0d9-e4e052ac8907&quot;,
+  &quot;MessageType&quot;: 12
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;CashOut xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/nConnect.Resources.ExternalFloor.Entities&quot;&gt;
+  &lt;DialogId&gt;15273dd0-62ca-4228-8209-310cf60467d7&lt;/DialogId&gt;
+  &lt;MessageIdentifier&gt;0d28b9d4-a73d-4fda-b0d9-e4e052ac8907&lt;/MessageIdentifier&gt;
+  &lt;MessageType&gt;12&lt;/MessageType&gt;
+  &lt;PacketKey&gt;10&lt;/PacketKey&gt;
+  &lt;AccountNumber&gt;6&lt;/AccountNumber&gt;
+  &lt;CardNumber&gt;sample string 5&lt;/CardNumber&gt;
+  &lt;PenniesCashedOut&gt;7&lt;/PenniesCashedOut&gt;
+  &lt;PlayerStationGuid&gt;sample string 4&lt;/PlayerStationGuid&gt;
+  &lt;PlayerStationId&gt;sample string 3&lt;/PlayerStationId&gt;
+  &lt;PlayerStationMfg&gt;sample string 2&lt;/PlayerStationMfg&gt;
+  &lt;SessionId&gt;1&lt;/SessionId&gt;
+  &lt;TimeStamp&gt;2022-06-09T11:51:03.9900404-07:00&lt;/TimeStamp&gt;
+&lt;/CashOut&gt;
+</pre>
+        </div>
+        <h4 class="sample-header">application/x-www-form-urlencoded</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+    <div class="warning-message-container">
+        <p>Failed to generate the sample for media type &#39;application/x-www-form-urlencoded&#39;. Cannot use formatter &#39;JQueryMvcFormUrlEncodedFormatter&#39; to write type &#39;CashOut&#39;.</p>
+    </div>
+
+        </div>
+</div>
+</div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/bonusing/events/{eventId}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/bonusing/events/{eventId}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>eventId</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;Active&quot;: true,
+  &quot;AwardsPerFrequency&quot;: 2,
+  &quot;DailyBudget&quot;: 3.0,
+  &quot;EventID&quot;: 4,
+  &quot;MachineGroups&quot;: [
+    {
+      &quot;Criteria&quot;: [
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        },
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        },
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        }
+      ],
+      &quot;Name&quot;: &quot;sample string 1&quot;
+    },
+    {
+      &quot;Criteria&quot;: [
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        },
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        },
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        }
+      ],
+      &quot;Name&quot;: &quot;sample string 1&quot;
+    },
+    {
+      &quot;Criteria&quot;: [
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        },
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        },
+        {
+          &quot;Name&quot;: &quot;Area&quot;,
+          &quot;Value&quot;: &quot;sample string 1&quot;,
+          &quot;ValueFrom&quot;: &quot;sample string 2&quot;,
+          &quot;ValueTo&quot;: &quot;sample string 3&quot;
+        }
+      ],
+      &quot;Name&quot;: &quot;sample string 1&quot;
+    }
+  ],
+  &quot;Name&quot;: &quot;sample string 5&quot;,
+  &quot;PlayerGroups&quot;: [
+    {
+      &quot;Criteria&quot;: [
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        },
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        },
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        }
+      ],
+      &quot;Name&quot;: &quot;sample string 1&quot;,
+      &quot;PlayerId&quot;: 2
+    },
+    {
+      &quot;Criteria&quot;: [
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        },
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        },
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        }
+      ],
+      &quot;Name&quot;: &quot;sample string 1&quot;,
+      &quot;PlayerId&quot;: 2
+    },
+    {
+      &quot;Criteria&quot;: [
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        },
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        },
+        {
+          &quot;Value&quot;: &quot;sample string 1&quot;
+        }
+      ],
+      &quot;Name&quot;: &quot;sample string 1&quot;,
+      &quot;PlayerId&quot;: 2
+    }
+  ],
+  &quot;Schedules&quot;: [
+    {
+      &quot;DailyRecurrence&quot;: true,
+      &quot;StartDateTime&quot;: &quot;2022-06-09T11:51:03.536889-07:00&quot;,
+      &quot;StopDateTime&quot;: &quot;2022-06-09T11:51:03.536889-07:00&quot;
+    },
+    {
+      &quot;DailyRecurrence&quot;: true,
+      &quot;StartDateTime&quot;: &quot;2022-06-09T11:51:03.536889-07:00&quot;,
+      &quot;StopDateTime&quot;: &quot;2022-06-09T11:51:03.536889-07:00&quot;
+    },
+    {
+      &quot;DailyRecurrence&quot;: true,
+      &quot;StartDateTime&quot;: &quot;2022-06-09T11:51:03.536889-07:00&quot;,
+      &quot;StopDateTime&quot;: &quot;2022-06-09T11:51:03.536889-07:00&quot;
+    }
+  ],
+  &quot;Triggers&quot;: [
+    {
+      &quot;Name&quot;: &quot;sample string 1&quot;,
+      &quot;RewardCount&quot;: 2,
+      &quot;RewardPool&quot;: 1.0,
+      &quot;Rewards&quot;: [
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        },
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        },
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        }
+      ],
+      &quot;Threshold&quot;: 1.0,
+      &quot;EventID&quot;: 3,
+      &quot;TriggerID&quot;: 4,
+      &quot;ParentTriggerID&quot;: 1
+    },
+    {
+      &quot;Name&quot;: &quot;sample string 1&quot;,
+      &quot;RewardCount&quot;: 2,
+      &quot;RewardPool&quot;: 1.0,
+      &quot;Rewards&quot;: [
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        },
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        },
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        }
+      ],
+      &quot;Threshold&quot;: 1.0,
+      &quot;EventID&quot;: 3,
+      &quot;TriggerID&quot;: 4,
+      &quot;ParentTriggerID&quot;: 1
+    },
+    {
+      &quot;Name&quot;: &quot;sample string 1&quot;,
+      &quot;RewardCount&quot;: 2,
+      &quot;RewardPool&quot;: 1.0,
+      &quot;Rewards&quot;: [
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        },
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        },
+        {
+          &quot;RewardID&quot;: 1,
+          &quot;TriggerID&quot;: 2,
+          &quot;Name&quot;: &quot;sample string 3&quot;,
+          &quot;Count&quot;: 4,
+          &quot;Enabled&quot;: true,
+          &quot;MinimumAmount&quot;: 6.0,
+          &quot;AwardAmount&quot;: 7.0
+        }
+      ],
+      &quot;Threshold&quot;: 1.0,
+      &quot;EventID&quot;: 3,
+      &quot;TriggerID&quot;: 4,
+      &quot;ParentTriggerID&quot;: 1
+    }
+  ]
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;Event xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://Aristocrat-inc.com/nConnect/Resources/Bonusing/Contracts/Entities&quot;&gt;
+  &lt;Active&gt;true&lt;/Active&gt;
+  &lt;AwardFrequencyType&gt;Unlimited&lt;/AwardFrequencyType&gt;
+  &lt;AwardsPerFrequency&gt;2&lt;/AwardsPerFrequency&gt;
+  &lt;DailyBudget&gt;3&lt;/DailyBudget&gt;
+  &lt;EventID&gt;4&lt;/EventID&gt;
+  &lt;MachineGroups&gt;
+    &lt;MachineGroup&gt;
+      &lt;Criteria&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+      &lt;/Criteria&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+    &lt;/MachineGroup&gt;
+    &lt;MachineGroup&gt;
+      &lt;Criteria&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+      &lt;/Criteria&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+    &lt;/MachineGroup&gt;
+    &lt;MachineGroup&gt;
+      &lt;Criteria&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+        &lt;MachineGroupCriterion&gt;
+          &lt;Name&gt;Area&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+          &lt;ValueFrom&gt;sample string 2&lt;/ValueFrom&gt;
+          &lt;ValueTo&gt;sample string 3&lt;/ValueTo&gt;
+        &lt;/MachineGroupCriterion&gt;
+      &lt;/Criteria&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+    &lt;/MachineGroup&gt;
+  &lt;/MachineGroups&gt;
+  &lt;Name&gt;sample string 5&lt;/Name&gt;
+  &lt;PlayerGroups&gt;
+    &lt;PlayerGroup&gt;
+      &lt;Criteria&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+      &lt;/Criteria&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+      &lt;PlayerId&gt;2&lt;/PlayerId&gt;
+    &lt;/PlayerGroup&gt;
+    &lt;PlayerGroup&gt;
+      &lt;Criteria&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+      &lt;/Criteria&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+      &lt;PlayerId&gt;2&lt;/PlayerId&gt;
+    &lt;/PlayerGroup&gt;
+    &lt;PlayerGroup&gt;
+      &lt;Criteria&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+        &lt;PlayerGroupCriterion&gt;
+          &lt;Name&gt;Interest&lt;/Name&gt;
+          &lt;Value&gt;sample string 1&lt;/Value&gt;
+        &lt;/PlayerGroupCriterion&gt;
+      &lt;/Criteria&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+      &lt;PlayerId&gt;2&lt;/PlayerId&gt;
+    &lt;/PlayerGroup&gt;
+  &lt;/PlayerGroups&gt;
+  &lt;PromotionType&gt;NotApplicable&lt;/PromotionType&gt;
+  &lt;Schedules&gt;
+    &lt;ScheduleOccurance&gt;
+      &lt;DailyRecurrence&gt;true&lt;/DailyRecurrence&gt;
+      &lt;StartDateTime&gt;2022-06-09T11:51:03.536889-07:00&lt;/StartDateTime&gt;
+      &lt;StopDateTime&gt;2022-06-09T11:51:03.536889-07:00&lt;/StopDateTime&gt;
+    &lt;/ScheduleOccurance&gt;
+    &lt;ScheduleOccurance&gt;
+      &lt;DailyRecurrence&gt;true&lt;/DailyRecurrence&gt;
+      &lt;StartDateTime&gt;2022-06-09T11:51:03.536889-07:00&lt;/StartDateTime&gt;
+      &lt;StopDateTime&gt;2022-06-09T11:51:03.536889-07:00&lt;/StopDateTime&gt;
+    &lt;/ScheduleOccurance&gt;
+    &lt;ScheduleOccurance&gt;
+      &lt;DailyRecurrence&gt;true&lt;/DailyRecurrence&gt;
+      &lt;StartDateTime&gt;2022-06-09T11:51:03.536889-07:00&lt;/StartDateTime&gt;
+      &lt;StopDateTime&gt;2022-06-09T11:51:03.536889-07:00&lt;/StopDateTime&gt;
+    &lt;/ScheduleOccurance&gt;
+  &lt;/Schedules&gt;
+  &lt;Triggers&gt;
+    &lt;Trigger&gt;
+      &lt;AccumulationType&gt;None&lt;/AccumulationType&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+      &lt;RewardCount&gt;2&lt;/RewardCount&gt;
+      &lt;RewardPool&gt;1&lt;/RewardPool&gt;
+      &lt;Rewards&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+      &lt;/Rewards&gt;
+      &lt;Threshold&gt;1&lt;/Threshold&gt;
+      &lt;EventID&gt;3&lt;/EventID&gt;
+      &lt;TriggerID&gt;4&lt;/TriggerID&gt;
+      &lt;ParentTriggerID&gt;1&lt;/ParentTriggerID&gt;
+      &lt;TriggerType&gt;None&lt;/TriggerType&gt;
+    &lt;/Trigger&gt;
+    &lt;Trigger&gt;
+      &lt;AccumulationType&gt;None&lt;/AccumulationType&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+      &lt;RewardCount&gt;2&lt;/RewardCount&gt;
+      &lt;RewardPool&gt;1&lt;/RewardPool&gt;
+      &lt;Rewards&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+      &lt;/Rewards&gt;
+      &lt;Threshold&gt;1&lt;/Threshold&gt;
+      &lt;EventID&gt;3&lt;/EventID&gt;
+      &lt;TriggerID&gt;4&lt;/TriggerID&gt;
+      &lt;ParentTriggerID&gt;1&lt;/ParentTriggerID&gt;
+      &lt;TriggerType&gt;None&lt;/TriggerType&gt;
+    &lt;/Trigger&gt;
+    &lt;Trigger&gt;
+      &lt;AccumulationType&gt;None&lt;/AccumulationType&gt;
+      &lt;Name&gt;sample string 1&lt;/Name&gt;
+      &lt;RewardCount&gt;2&lt;/RewardCount&gt;
+      &lt;RewardPool&gt;1&lt;/RewardPool&gt;
+      &lt;Rewards&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+        &lt;Reward&gt;
+          &lt;RewardID&gt;1&lt;/RewardID&gt;
+          &lt;TriggerID&gt;2&lt;/TriggerID&gt;
+          &lt;Name&gt;sample string 3&lt;/Name&gt;
+          &lt;Count&gt;4&lt;/Count&gt;
+          &lt;Enabled&gt;true&lt;/Enabled&gt;
+          &lt;MinimumAmount&gt;6&lt;/MinimumAmount&gt;
+          &lt;AwardAmount&gt;7&lt;/AwardAmount&gt;
+          &lt;AwardType&gt;Unknown&lt;/AwardType&gt;
+        &lt;/Reward&gt;
+      &lt;/Rewards&gt;
+      &lt;Threshold&gt;1&lt;/Threshold&gt;
+      &lt;EventID&gt;3&lt;/EventID&gt;
+      &lt;TriggerID&gt;4&lt;/TriggerID&gt;
+      &lt;ParentTriggerID&gt;1&lt;/ParentTriggerID&gt;
+      &lt;TriggerType&gt;None&lt;/TriggerType&gt;
+    &lt;/Trigger&gt;
+  &lt;/Triggers&gt;
+&lt;/Event&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>

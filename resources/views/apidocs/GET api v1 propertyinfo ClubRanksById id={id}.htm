@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>GET api/v1/propertyinfo/ClubRanksById?id={id}</title>
+    <link href="/ATI.nConnectOasis/Content/site.css" rel="stylesheet"/>
+
+    <script src="/ATI.nConnectOasis/Scripts/modernizr-2.6.2.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a href="/ATI.nConnectOasis/">nConnect</a></p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="/ATI.nConnectOasis/">Home</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <p>
+                <a href="/ATI.nConnectOasis/Help">Help Page Home</a>
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        
+<h1>GET api/v1/propertyinfo/ClubRanksById?id={id}</h1>
+<div>
+        <p>No documentation available.</p>
+
+        <h2>Request Information</h2>
+            <h3>Parameters</h3>
+<table class="help-page-table">
+    <thead>
+    <tr><th>Name</th><th>Description</th><th>Additional information</th></tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td class="parameter-name"><b>id</b></td>
+                <td class="parameter-documentation"><pre>No documentation available.</pre></td>
+                <td class="parameter-source">
+                            <p>Define this parameter in the request <b>URI</b>.</p>
+                </td>
+            </tr>
+    </tbody>
+</table>
+        <h2>Response Information</h2> 
+        <h3>Response body formats</h3>
+
+<div>
+        <h4 class="sample-header">application/json, text/json</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+{
+  &quot;RankId&quot;: 1,
+  &quot;RankName&quot;: &quot;sample string 1&quot;,
+  &quot;RankLimits&quot;: [
+    {
+      &quot;IsMinLimit&quot;: true,
+      &quot;RankLimitId&quot;: 1,
+      &quot;AccountType&quot;: 3,
+      &quot;Amount&quot;: 4.0,
+      &quot;IsDailyLimit&quot;: true,
+      &quot;TransactionType&quot;: 6
+    },
+    {
+      &quot;IsMinLimit&quot;: true,
+      &quot;RankLimitId&quot;: 1,
+      &quot;AccountType&quot;: 3,
+      &quot;Amount&quot;: 4.0,
+      &quot;IsDailyLimit&quot;: true,
+      &quot;TransactionType&quot;: 6
+    },
+    {
+      &quot;IsMinLimit&quot;: true,
+      &quot;RankLimitId&quot;: 1,
+      &quot;AccountType&quot;: 3,
+      &quot;Amount&quot;: 4.0,
+      &quot;IsDailyLimit&quot;: true,
+      &quot;TransactionType&quot;: 6
+    }
+  ],
+  &quot;EndValue&quot;: 2,
+  &quot;StartValue&quot;: 3,
+  &quot;ClubId&quot;: 4,
+  &quot;PointsAwarded&quot;: 5,
+  &quot;CompsMultiplier&quot;: 6.0,
+  &quot;PointsMultiplier&quot;: 7.0,
+  &quot;RankAssessments&quot;: [
+    {
+      &quot;AssessmentId&quot;: 1,
+      &quot;RankAssessmentId&quot;: 1,
+      &quot;RankId&quot;: 1,
+      &quot;ValueType&quot;: &quot;sample string 2&quot;,
+      &quot;Value&quot;: 1.0,
+      &quot;TextValue&quot;: &quot;sample string 3&quot;
+    },
+    {
+      &quot;AssessmentId&quot;: 1,
+      &quot;RankAssessmentId&quot;: 1,
+      &quot;RankId&quot;: 1,
+      &quot;ValueType&quot;: &quot;sample string 2&quot;,
+      &quot;Value&quot;: 1.0,
+      &quot;TextValue&quot;: &quot;sample string 3&quot;
+    },
+    {
+      &quot;AssessmentId&quot;: 1,
+      &quot;RankAssessmentId&quot;: 1,
+      &quot;RankId&quot;: 1,
+      &quot;ValueType&quot;: &quot;sample string 2&quot;,
+      &quot;Value&quot;: 1.0,
+      &quot;TextValue&quot;: &quot;sample string 3&quot;
+    }
+  ]
+}
+</pre>
+        </div>
+        <h4 class="sample-header">application/xml, text/xml</h4>
+        <div class="sample-content">
+            <span><b>Sample:</b></span>
+<pre class="wrapped">
+&lt;PropertyClubRank xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/ATI.Oasis.Web.API.PropertyInfo.Entities&quot;&gt;
+  &lt;ClubId&gt;4&lt;/ClubId&gt;
+  &lt;CompsMultiplier&gt;6&lt;/CompsMultiplier&gt;
+  &lt;EndValue&gt;2&lt;/EndValue&gt;
+  &lt;PointsAwarded&gt;5&lt;/PointsAwarded&gt;
+  &lt;PointsMultiplier&gt;7&lt;/PointsMultiplier&gt;
+  &lt;RankAssessments&gt;
+    &lt;RankAssessment&gt;
+      &lt;AssessmentId&gt;1&lt;/AssessmentId&gt;
+      &lt;RankAssessmentId&gt;1&lt;/RankAssessmentId&gt;
+      &lt;RankId&gt;1&lt;/RankId&gt;
+      &lt;TextValue&gt;sample string 3&lt;/TextValue&gt;
+      &lt;Value&gt;1&lt;/Value&gt;
+      &lt;ValueType&gt;sample string 2&lt;/ValueType&gt;
+    &lt;/RankAssessment&gt;
+    &lt;RankAssessment&gt;
+      &lt;AssessmentId&gt;1&lt;/AssessmentId&gt;
+      &lt;RankAssessmentId&gt;1&lt;/RankAssessmentId&gt;
+      &lt;RankId&gt;1&lt;/RankId&gt;
+      &lt;TextValue&gt;sample string 3&lt;/TextValue&gt;
+      &lt;Value&gt;1&lt;/Value&gt;
+      &lt;ValueType&gt;sample string 2&lt;/ValueType&gt;
+    &lt;/RankAssessment&gt;
+    &lt;RankAssessment&gt;
+      &lt;AssessmentId&gt;1&lt;/AssessmentId&gt;
+      &lt;RankAssessmentId&gt;1&lt;/RankAssessmentId&gt;
+      &lt;RankId&gt;1&lt;/RankId&gt;
+      &lt;TextValue&gt;sample string 3&lt;/TextValue&gt;
+      &lt;Value&gt;1&lt;/Value&gt;
+      &lt;ValueType&gt;sample string 2&lt;/ValueType&gt;
+    &lt;/RankAssessment&gt;
+  &lt;/RankAssessments&gt;
+  &lt;RankId&gt;1&lt;/RankId&gt;
+  &lt;RankLimits&gt;
+    &lt;RankLimit&gt;
+      &lt;AccountType&gt;3&lt;/AccountType&gt;
+      &lt;Amount&gt;4&lt;/Amount&gt;
+      &lt;IsDailyLimit&gt;true&lt;/IsDailyLimit&gt;
+      &lt;TransactionType&gt;6&lt;/TransactionType&gt;
+      &lt;IsMinLimit&gt;true&lt;/IsMinLimit&gt;
+      &lt;RankLimitId&gt;1&lt;/RankLimitId&gt;
+    &lt;/RankLimit&gt;
+    &lt;RankLimit&gt;
+      &lt;AccountType&gt;3&lt;/AccountType&gt;
+      &lt;Amount&gt;4&lt;/Amount&gt;
+      &lt;IsDailyLimit&gt;true&lt;/IsDailyLimit&gt;
+      &lt;TransactionType&gt;6&lt;/TransactionType&gt;
+      &lt;IsMinLimit&gt;true&lt;/IsMinLimit&gt;
+      &lt;RankLimitId&gt;1&lt;/RankLimitId&gt;
+    &lt;/RankLimit&gt;
+    &lt;RankLimit&gt;
+      &lt;AccountType&gt;3&lt;/AccountType&gt;
+      &lt;Amount&gt;4&lt;/Amount&gt;
+      &lt;IsDailyLimit&gt;true&lt;/IsDailyLimit&gt;
+      &lt;TransactionType&gt;6&lt;/TransactionType&gt;
+      &lt;IsMinLimit&gt;true&lt;/IsMinLimit&gt;
+      &lt;RankLimitId&gt;1&lt;/RankLimitId&gt;
+    &lt;/RankLimit&gt;
+  &lt;/RankLimits&gt;
+  &lt;RankName&gt;sample string 1&lt;/RankName&gt;
+  &lt;StartValue&gt;3&lt;/StartValue&gt;
+&lt;/PropertyClubRank&gt;
+</pre>
+        </div>
+</div></div>
+    </section>
+</div>
+
+
+
+    <script src="/ATI.nConnectOasis/Scripts/jquery-2.0.0.js"></script>
+
+    
+    <link type="text/css" href="/ATI.nConnectOasis/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+
+</body>
+</html>
